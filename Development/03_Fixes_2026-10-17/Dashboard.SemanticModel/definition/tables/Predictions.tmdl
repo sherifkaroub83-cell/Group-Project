@@ -53,7 +53,7 @@ table Predictions
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("D:/Study/MBA/Courses/11 - Data Analytics for AI Business/Group Project/working/enhancement/Heldout_Predictions.csv"),[Delimiter=",",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),
+				    Source = Csv.Document(File.Contents("D:/Study/MBA/Courses/11 - Data Analytics for AI Business/Group Project/Development/02_Enhancement/Heldout_Predictions.csv"),[Delimiter=",",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),
 				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
 				    Typed = Table.TransformColumnTypes(Headers,{{"Record_ID",type text},{"Actual_Demand",type number},{"Model_Prediction",type number},{"Baseline_Prediction",type number},{"Model_Absolute_Error",type number},{"Baseline_Absolute_Error",type number},{"Model_Squared_Error",type number},{"Baseline_Squared_Error",type number}},"en-US")
 				in Typed
