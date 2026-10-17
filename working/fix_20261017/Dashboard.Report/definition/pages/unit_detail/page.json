@@ -1,0 +1,194 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "unit_detail",
+  "displayName": "Business Unit Detail",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "unit_detail_filter",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Allocation"
+              }
+            },
+            "Property": "Business_Unit"
+          }
+        },
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "Allocation",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Property": "Business_Unit"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Digital Products'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "unit_detail_binding",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "unit_detail_param",
+        "boundFilter": "unit_detail_filter",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Allocation"
+              }
+            },
+            "Property": "Business_Unit"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F0F4F6'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "7789ee993841437aba6c",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "be099fd07ef841a6b166",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "cc755aa2193c411386d8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "753ce1451ebf43f6b166",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "7aa145690f82470db7d0",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "498cdc1e609e4c9eb5fe",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "239689bf5c9e44979f64",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a7c7cb0823a04d0f8264",
+      "target": "84f4d0b29b0b4cf7bf06",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "7789ee993841437aba6c",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "be099fd07ef841a6b166",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "cc755aa2193c411386d8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "753ce1451ebf43f6b166",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "7aa145690f82470db7d0",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "498cdc1e609e4c9eb5fe",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "239689bf5c9e44979f64",
+      "type": "DataFilter"
+    },
+    {
+      "source": "84f4d0b29b0b4cf7bf06",
+      "target": "a7c7cb0823a04d0f8264",
+      "type": "DataFilter"
+    }
+  ]
+}

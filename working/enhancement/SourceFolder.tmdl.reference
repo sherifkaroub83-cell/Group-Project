@@ -1,0 +1,3 @@
+expression SourceFolder =
+	"D:/Study/MBA/Courses/11 - Data Analytics for AI Business/Group Project" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 7889993a-0737-4a4b-a019-9f6cd1d5f490

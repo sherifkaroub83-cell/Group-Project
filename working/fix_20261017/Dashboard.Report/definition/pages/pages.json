@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "executive",
+    "financial",
+    "service",
+    "capacity",
+    "priorities",
+    "model_evidence",
+    "unit_detail",
+    "record_detail",
+    "definitions"
+  ],
+  "activePageName": "executive"
+}

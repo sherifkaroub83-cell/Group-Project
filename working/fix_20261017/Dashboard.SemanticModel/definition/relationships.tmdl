@@ -1,0 +1,8 @@
+relationship 1810999b-c78c-4035-92d6-2af31435f1f1
+	fromColumn: Allocation.Record_Date
+	toColumn: Calendar.Date
+
+relationship a890d1e2-6e8f-4961-95de-e90cd1128f19
+	fromColumn: Predictions.Record_ID
+	toColumn: Allocation.Record_ID
+

@@ -1,0 +1,1764 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "allocation.scenario_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Scenario_Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Scenario Label": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Scenario": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.business_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Business_Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Business Unit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.operating_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Operating Profit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Operating Profit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Profit": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.allocated_budget": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Allocated Budget"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Allocated Budget": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_roi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean ROI"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.resource_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Resource_Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Resource Category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Revenue": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_resource_risk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Resource Risk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Region": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.actual_spend": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Actual Spend"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Actual Spend": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.reallocation_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Reallocation Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Reallocation Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_order_fulfilment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Order Fulfilment"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.workforce_utilization": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Workforce Utilization"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Workforce Utilization": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.equipment_utilization": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Equipment Utilization"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Equipment Utilization": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.attention_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Attention Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Attention Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Attention": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.budget_utilization": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Budget Utilization"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Budget Utilization": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.ltv_to_cac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "LTV to CAC"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.operating_margin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Operating Margin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Operating Margin": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Margin": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.portfolio_expected_roi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Portfolio Expected ROI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Exp. ROI": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Portfolio Expected ROI": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.project_or_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Project_or_Product"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Initiative": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.investment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Investment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Investment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.demand": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Demand"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Demand": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.forecast_demand": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Forecast Demand"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.order_completion_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Order Completion Rate"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.mean_forecast_accuracy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Forecast Accuracy"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.supply": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Supply"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Supply": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.stockouts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Stockouts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Stockouts": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.demand_wape": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Demand WAPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Demand WAPE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_inventory_service": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Inventory Service"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.orders_delayed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Orders Delayed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Orders Delayed": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.orders_completed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Orders Completed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Orders Completed": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.inventory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Inventory"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.capacity_shortfall": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Capacity Shortfall"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Capacity Shortfall": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Base gap": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_safety_compliance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Safety Compliance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Safety %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.downtime_hours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Downtime Hours"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.training_hours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Training Hours"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "allocation.maintenance_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Maintenance Cost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Maintenance Cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.unused_equipment_hours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Unused Equipment Hours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Unused Equipment Hours": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.unused_workforce_hours": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Unused Workforce Hours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Unused Workforce Hours": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.scenario_coverage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Scenario Coverage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Scenario Coverage": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_optimization_priority": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Optimization Priority"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Priority": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.scenario_capacity_gap": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Scenario Capacity Gap"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Scenario Capacity Gap": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Selected gap": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.review_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Review Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Review Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.record_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Record_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Record": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.decision_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Decision_Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Status": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.attention_budget": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Attention Budget"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "calendar.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Year": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calendar.year_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar",
+			          "ConceptualProperty": "Year Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Year Month": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "demand_scenario.demand_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Demand Scenario",
+			          "ConceptualProperty": "Demand Change"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Demand Change": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.attention_budget_m": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Attention Budget M"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Attention Budget M": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.context_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Context Label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Context Label": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.order_delay_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Order Delay Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Order Delay Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Delay %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.capacity_gap_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Capacity Gap Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Gap %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Capacity Gap Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.executive_insight": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Executive Insight"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Executive Insight": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.net_budget_variance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Net Budget Variance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Net Budget Variance": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.overspend_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Overspend Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Overspend Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.overspend_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Overspend Amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Overspend Amount": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.negative_roi_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Negative ROI Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Negative ROI Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.total_orders": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Total Orders"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Orders": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.shortage_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Shortage Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Shortage %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Shortage Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.forecast_bias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Forecast Bias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Forecast Bias": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mean_inventory_observation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Mean Inventory Observation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mean Inventory Observation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.demand_per_record": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Demand per Record"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Demand per Record": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.forecast_per_record": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Forecast per Record"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Forecast per Record": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.downtime_per_record": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Downtime per Record"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Downtime per Record": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.shortage_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Shortage Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Shortage Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.gap_change": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Gap Change"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Gap Change": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.baseline_coverage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Baseline Coverage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Baseline Coverage": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.model_wape": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Model WAPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Model WAPE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.test_records": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Test Records"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Test Records": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.baseline_mae": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Baseline MAE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Baseline MAE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.model_mae": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Model MAE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Model MAE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.mae_difference": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "MAE Difference"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MAE Difference": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.model_finding": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Model Finding"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Model Finding": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.revenue_per_record": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Revenue per Record"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Revenue per Record": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.record_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Record_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Record Date": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.record_context": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Record Context"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Record Context": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.record_exception": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Record Exception"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Record Exception": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.expected_return": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Expected Return"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Expected Return": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.workforce_available": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Workforce Available"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Workforce Available": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.workforce_allocated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Workforce Allocated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Workforce Allocated": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.equipment_available": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Equipment Available"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Equipment Available": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.equipment_allocated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Equipment Allocated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Equipment Allocated": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "allocation.resource_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Allocation",
+			          "ConceptualProperty": "Resource_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Resource ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

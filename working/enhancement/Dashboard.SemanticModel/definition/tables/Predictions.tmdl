@@ -1,0 +1,62 @@
+table Predictions
+	lineageTag: 2343ac38-b4ab-4e55-9005-2a0735bee3e9
+
+	column Record_ID
+		dataType: string
+		lineageTag: 3a56414d-654c-426a-8a2d-87761dc51071
+		summarizeBy: none
+		sourceColumn: Record_ID
+
+	column Actual_Demand
+		dataType: double
+		lineageTag: 1f632a1a-1aec-468b-8fc1-45081b5b1c0f
+		summarizeBy: none
+		sourceColumn: Actual_Demand
+
+	column Model_Prediction
+		dataType: double
+		lineageTag: 464de593-b528-4c3d-96ea-cc606a4e6263
+		summarizeBy: none
+		sourceColumn: Model_Prediction
+
+	column Baseline_Prediction
+		dataType: double
+		lineageTag: ec838f95-8d42-4ca5-aef8-113677d60513
+		summarizeBy: none
+		sourceColumn: Baseline_Prediction
+
+	column Model_Absolute_Error
+		dataType: double
+		lineageTag: 3be41ebd-eac1-4697-ace1-0b9b9c8a67f2
+		summarizeBy: none
+		sourceColumn: Model_Absolute_Error
+
+	column Baseline_Absolute_Error
+		dataType: double
+		lineageTag: fa870402-8a34-433c-9c09-b9c1535661c7
+		summarizeBy: none
+		sourceColumn: Baseline_Absolute_Error
+
+	column Model_Squared_Error
+		dataType: double
+		lineageTag: 2d682eab-39fc-444b-8ccd-598caa33eda0
+		summarizeBy: none
+		sourceColumn: Model_Squared_Error
+
+	column Baseline_Squared_Error
+		dataType: double
+		lineageTag: be847eca-1bc6-4b1b-bed9-574a0b5bc867
+		summarizeBy: none
+		sourceColumn: Baseline_Squared_Error
+
+	partition Predictions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:/Study/MBA/Courses/11 - Data Analytics for AI Business/Group Project/working/enhancement/Heldout_Predictions.csv"),[Delimiter=",",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers,{{"Record_ID",type text},{"Actual_Demand",type number},{"Model_Prediction",type number},{"Baseline_Prediction",type number},{"Model_Absolute_Error",type number},{"Baseline_Absolute_Error",type number},{"Model_Squared_Error",type number},{"Baseline_Squared_Error",type number}},"en-US")
+				in Typed
+
+	annotation PBI_ResultType = Table
+

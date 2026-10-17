@@ -1,0 +1,62 @@
+table Calendar
+	lineageTag: 6ba3e3f8-50f0-49d7-801d-35c7f4601562
+
+	column Date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 2529807a-6810-43f6-a881-c5b0a4260f17
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 8b242b18-49df-4ec1-90d4-72f7e570256d
+		summarizeBy: none
+		sourceColumn: Year
+
+	column Month
+		dataType: string
+		lineageTag: 9f9a15fc-b736-4941-90f7-1cf071b1742a
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month Number'
+
+	column 'Month Number'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3b0676f2-0d01-4cd0-9bda-1805dffc7e67
+		summarizeBy: none
+		sourceColumn: Month Number
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 84de0da3-cdeb-4856-9c37-4bdb1e892e4f
+		summarizeBy: none
+		sourceColumn: Year Month
+		sortByColumn: 'Year Month Sort'
+
+	column 'Year Month Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: feb3f833-67b7-4dfe-a608-c8d7e81129bf
+		summarizeBy: none
+		sourceColumn: Year Month Sort
+
+	partition Calendar = m
+		mode: import
+		source =
+				let
+				    Dates = Table.FromColumns({List.Dates(#date(2024,1,1),1096,#duration(1,0,0,0))},{"Date"}),
+				    Typed = Table.TransformColumnTypes(Dates,{{"Date",type date}}),
+				    Y = Table.AddColumn(Typed,"Year",each Date.Year([Date]),Int64.Type),
+				    M = Table.AddColumn(Y,"Month",each Date.ToText([Date],"MMM","en-US"),type text),
+				    N = Table.AddColumn(M,"Month Number",each Date.Month([Date]),Int64.Type),
+				    YM = Table.AddColumn(N,"Year Month",each Date.ToText([Date],"yyyy-MM","en-US"),type text),
+				    S = Table.AddColumn(YM,"Year Month Sort",each Date.Year([Date])*100+Date.Month([Date]),Int64.Type)
+				in S
+

@@ -1,0 +1,630 @@
+ENTERPRISE ANALYTICS PUBLICATION
+AI-Assisted Resource Allocation
+and Business Performance
+Optimization
+Group 9226 | Team 4
+Data Analytics for AI Business
+Graduate School of Business (GSB), Miami
+Arab Academy for Science, Technology and Maritime Transport
+Dataset
+Architecture
+Status
+5,000 records
+60 variables
+Verified and approved
+18 qualitative
+30 quantitative
+12 derived executive
+Academic Year 2026 | Dataset Version 1.0
+PUBLICATION GUIDE
+Contents and Team Profile
+Section
+Title
+Executive Summary
+Decision synthesis
+1
+Introduction
+2
+Business Questions and Challenges
+3
+Dataset Description
+4
+Purpose and Applications
+5
+Dataset Structure
+6
+Qualitative Variables
+7
+Quantitative Variables
+8
+Derived Executive Variables
+9
+Power BI and AI Relevance
+10
+Five Dashboard Designs
+11
+Twenty Business Insights
+12
+Analytics and AI Applications
+13
+Conclusion
+Team 4
+Student
+Reg. No.
+Contribution
+Ahmed Mostafa Helmy
+24220861
+Reliability, maintenance and production-loss analytics
+Sherif Samy Karoub
+24225778
+ROI, EBITDA, cash flow and investment allocation
+Ahmed Mahmoud Elsayed Gohar
+24221240
+Product profitability, CAC/LTV and growth prioritization
+Abdelrahman Mohamed Mahmoud Ataalla
+24225790
+Demand forecasting, inventory and expiry optimization
+Mostafa Badr El-Din Abdo Ghonim
+24225799
+Workforce scheduling, maintenance and safety allocation
+OPTIMIZATION INTELLIGENCE
+Executive Summary
+This publication develops an AI-assisted resource-allocation and business-performance optimization environment using a verified synthetic dataset of 5,000 records and 60 variables. It integrates capital, workforce, equipment, inventory, service capacity and digital transactions across mining, finance, SaaS, pharmacy and marine contexts.
+Allocated budget totals $2,515,646,929, actual spending $2,505,324,106, revenue $3,050,089,873, and operating profit $1,447,046,442. Mean ROI is 22.2%. Demand-forecast accuracy averages 92.6%, inventory service level 98.8%, workforce utilization 81.7%, and equipment utilization 79.1%.
+Capacity coverage reaches 96.5% and order fulfilment 91.5%. Mean Resource Risk Score is 8.8/100, while 11 records meet the defined reallocation threshold. The proposed dashboards and AI models enable management to compare economic value, capacity pressure and risk before moving resources.
+Five dashboards address executive allocation, financial performance, demand and inventory, workforce and equipment, and predictive optimization. AI applications include demand and revenue forecasting, risk classification, scenario analysis, resource clustering and constrained recommendation.
+Managerial proposition  
+Allocate scarce resources to the combinations of demand, capacity, return and risk that generate the strongest sustainable value.
+ENTERPRISE CONTEXT
+1. Introduction
+Resource allocation translates strategy into operating capability. Organizations must continually distribute capital, workforce, equipment, inventory and digital capacity among competing initiatives. Decisions based on isolated budgets or local utilization can shift constraints instead of improving total performance.
+Team 4 combines experience in reliability and mining, finance and investment, SaaS growth, pharmacy inventory and marine operations. The resulting analytical model treats resources as a connected portfolio whose value depends on demand, supply, utilization, profitability, service, safety and risk.
+Descriptive analytics establishes current allocation; diagnostic analytics identifies constraints; predictive analytics estimates demand, revenue and risk; and prescriptive analytics recommends reallocations. The dataset is synthetic and all results derive from approved Dataset Version 1.0.
+Scope  
+Five resource categories, five business units, multiple scenarios, 5,000 observations and a governed executive-intelligence layer.
+FINANCE, DEMAND AND INVENTORY
+2. Business Questions and Challenges
+Capital Allocation
+Challenges
+Budgets compete across initiatives.
+Spend does not automatically produce return.
+Questions
+Which allocations create the strongest ROI and profit?
+Where should capital be reduced or expanded?
+Demand and Forecasting
+Challenges
+Demand changes across scenarios.
+Forecast error creates shortage or idle resources.
+Questions
+Where is forecast accuracy weakest?
+Which demand signals should drive allocation?
+Inventory
+Challenges
+Stockouts reduce fulfilment.
+Excess inventory ties up capital.
+Questions
+Which records show inadequate service levels?
+How should inventory be balanced by priority?
+CAPACITY, PEOPLE AND GOVERNANCE
+2. Business Questions and Challenges (continued)
+Workforce
+Challenges
+Skills and hours are unevenly distributed.
+High utilization may create operational strain.
+Questions
+Where are workforce shortages emerging?
+Which skills require redeployment or training?
+Equipment and Service Capacity
+Challenges
+Equipment allocation must match demand.
+Downtime and capacity gaps affect service.
+Questions
+Which assets are under- or over-utilized?
+Where can capacity be rebalanced?
+Executive Governance
+Challenges
+Local KPIs can conflict.
+Reallocation requires transparent trade-offs.
+Questions
+Which records require immediate review?
+How can optimization remain explainable and accountable?
+EVIDENCE BASE
+3. Dataset Description
+The analytical grain is a resource-allocation observation. Records can be segmented by time, unit, industry, geography, resource, initiative, customer, priority, demand, inventory, skills, scenario, risk and decision status.
+Characteristic
+Specification
+Records
+5,000
+Variables
+60
+Coverage
+2024-2026
+Business units
+5
+Resource categories
+5
+Qualitative
+18
+Quantitative
+30
+Derived executive
+12
+Readiness
+Power BI and AI ready
+Disclosure
+Synthetic educational data
+Embedded Relationships
+Relationship
+Meaning
+Demand and supply
+Drive shortage and service level
+Allocation and availability
+Determine utilization
+Revenue and cost
+Determine operating profit
+Investment and return
+Determine ROI
+Forecast error
+Increases allocation uncertainty
+Capacity, fulfilment and risk
+Drive optimization priority
+MANAGERIAL USE
+4. Purpose and Applications
+The dataset creates a shared evidence base for executives, finance, operations, product, supply-chain and workforce leaders. It supports comparison of resource choices across business contexts without losing operational detail.
+Domain
+Applications
+Executive
+Portfolio allocation and scenario review
+Finance
+Budget, spend, profit and ROI
+Operations
+Capacity, equipment and fulfilment
+Inventory
+Service levels, shortage and stockout
+Workforce
+Hours, skills and utilization
+AI
+Forecasting, classification and recommendation
+Education
+Power BI, optimization and interpretation
+Decision objective  
+Prioritize reallocations that improve value, service and capacity while controlling risk.
+ANALYTICAL ARCHITECTURE
+5. Dataset Structure
+Layer
+Variables
+Role
+Dimensions
+18 qualitative
+Context and segmentation
+Observed measures
+30 quantitative
+Finance, demand, supply and capacity
+Executive intelligence
+12 derived
+KPIs, risk and optimization
+Total
+60
+Integrated allocation model
+Control
+Value
+Dataset
+Group_9226_Team_4_Enterprise_Dataset
+Version
+1.0
+Seed
+922604
+Records
+5,000
+Missing values
+0
+Duplicate IDs
+0
+Constraint errors
+0
+Approval
+Verified for publication
+The executive layer contains budget variance, utilization, operating profit, ROI, forecast accuracy, service level, workforce and equipment utilization, capacity coverage, fulfilment, risk and optimization priority.
+VARIABLE ARCHITECTURE
+6. Qualitative Variables
+Variable
+Type
+Description
+Role
+Record_ID
+Text
+Record ID
+Resource allocation and business optimization
+Record_Date
+Text
+Record Date
+Resource allocation and business optimization
+Quarter
+Text
+Quarter
+Resource allocation and business optimization
+Business_Unit
+Text
+Business Unit
+Resource allocation and business optimization
+Industry_Context
+Text
+Industry Context
+Resource allocation and business optimization
+Region
+Text
+Region
+Resource allocation and business optimization
+Resource_Category
+Text
+Resource Category
+Resource allocation and business optimization
+Resource_ID
+Text
+Resource ID
+Resource allocation and business optimization
+Allocation_Type
+Text
+Allocation Type
+Resource allocation and business optimization
+Project_or_Product
+Text
+Project or Product
+Resource allocation and business optimization
+Customer_Segment
+Text
+Customer Segment
+Resource allocation and business optimization
+Priority_Level
+Text
+Priority Level
+Resource allocation and business optimization
+Demand_Status
+Text
+Demand Status
+Resource allocation and business optimization
+Inventory_Status
+Text
+Inventory Status
+Resource allocation and business optimization
+Workforce_Skill_Level
+Text
+Workforce Skill Level
+Resource allocation and business optimization
+Scenario_Label
+Text
+Scenario Label
+Resource allocation and business optimization
+Risk_Category
+Text
+Risk Category
+Resource allocation and business optimization
+Decision_Status
+Text
+Decision Status
+Resource allocation and business optimization
+VARIABLES 1-15
+7. Quantitative Variables
+Variable
+Type
+Description
+Role
+Budget_Allocated_USD
+Decimal
+Budget Allocated USD
+Resource allocation and business optimization
+Actual_Spend_USD
+Decimal
+Actual Spend USD
+Resource allocation and business optimization
+Revenue_USD
+Decimal
+Revenue USD
+Resource allocation and business optimization
+Direct_Cost_USD
+Decimal
+Direct Cost USD
+Resource allocation and business optimization
+Operating_Cost_USD
+Decimal
+Operating Cost USD
+Resource allocation and business optimization
+Investment_Amount_USD
+Decimal
+Investment Amount USD
+Resource allocation and business optimization
+Expected_Return_USD
+Decimal
+Expected Return USD
+Resource allocation and business optimization
+Demand_Units
+Decimal
+Demand Units
+Resource allocation and business optimization
+Supply_Units
+Decimal
+Supply Units
+Resource allocation and business optimization
+Inventory_Units
+Decimal
+Inventory Units
+Resource allocation and business optimization
+Stockout_Units
+Decimal
+Stockout Units
+Resource allocation and business optimization
+Workforce_Available_Hours
+Decimal
+Workforce Available Hours
+Resource allocation and business optimization
+Workforce_Allocated_Hours
+Decimal
+Workforce Allocated Hours
+Resource allocation and business optimization
+Equipment_Available_Hours
+Decimal
+Equipment Available Hours
+Resource allocation and business optimization
+Equipment_Allocated_Hours
+Decimal
+Equipment Allocated Hours
+Resource allocation and business optimization
+VARIABLES 16-30
+7. Quantitative Variables (continued)
+Variable
+Type
+Description
+Role
+Service_Capacity
+Decimal
+Service Capacity
+Resource allocation and business optimization
+Service_Demand
+Decimal
+Service Demand
+Resource allocation and business optimization
+Orders_Completed
+Decimal
+Orders Completed
+Resource allocation and business optimization
+Orders_Delayed
+Decimal
+Orders Delayed
+Resource allocation and business optimization
+Forecast_Demand
+Decimal
+Forecast Demand
+Resource allocation and business optimization
+Forecast_Revenue_USD
+Decimal
+Forecast Revenue USD
+Resource allocation and business optimization
+Customer_Acquisition_Cost_USD
+Decimal
+Customer Acquisition Cost USD
+Resource allocation and business optimization
+Customer_Lifetime_Value_USD
+Decimal
+Customer Lifetime Value USD
+Resource allocation and business optimization
+Downtime_Hours
+Decimal
+Downtime Hours
+Resource allocation and business optimization
+Maintenance_Cost_USD
+Decimal
+Maintenance Cost USD
+Resource allocation and business optimization
+Training_Hours
+Decimal
+Training Hours
+Resource allocation and business optimization
+Safety_Compliance_Pct
+Decimal
+Safety Compliance Pct
+Resource allocation and business optimization
+Customer_Satisfaction_Score
+Decimal
+Customer Satisfaction Score
+Resource allocation and business optimization
+Digital_Transactions
+Decimal
+Digital Transactions
+Resource allocation and business optimization
+Total_Transactions
+Decimal
+Total Transactions
+Resource allocation and business optimization
+EXECUTIVE KPI LAYER
+8. Derived Executive Intelligence Variables
+Variable
+Type / Formula
+Interpretation
+Role
+Budget_Variance_USD
+Decimal
+Budget Variance USD
+Resource allocation and business optimization
+Budget_Utilization_Pct
+Decimal
+Budget Utilization Pct
+Resource allocation and business optimization
+Operating_Profit_USD
+Decimal
+Operating Profit USD
+Resource allocation and business optimization
+ROI_Pct
+Decimal
+ROI Pct
+Resource allocation and business optimization
+Demand_Forecast_Accuracy_Pct
+Decimal
+Demand Forecast Accuracy Pct
+Resource allocation and business optimization
+Inventory_Service_Level_Pct
+Decimal
+Inventory Service Level Pct
+Resource allocation and business optimization
+Workforce_Utilization_Pct
+Decimal
+Workforce Utilization Pct
+Resource allocation and business optimization
+Equipment_Utilization_Pct
+Decimal
+Equipment Utilization Pct
+Resource allocation and business optimization
+Capacity_Coverage_Pct
+Decimal
+Capacity Coverage Pct
+Resource allocation and business optimization
+Order_Fulfilment_Pct
+Decimal
+Order Fulfilment Pct
+Resource allocation and business optimization
+Resource_Risk_Score
+Decimal
+Resource Risk Score
+Resource allocation and business optimization
+Optimization_Priority_Score
+Decimal
+Optimization Priority Score
+Resource allocation and business optimization
+The derived layer connects economic value with allocation efficiency and operational outcomes. Resource Risk and Optimization Priority support management attention while preserving drill-down to their component indicators.
+TECHNOLOGY ENABLEMENT
+9. Relevance to Power BI and Artificial Intelligence for Business
+Power BI can integrate allocation dimensions with financial, demand, inventory, workforce, equipment and service measures. Shared filters and reconciled KPIs allow managers to compare units and scenarios and trace an executive signal to the underlying record.
+AI supports demand and revenue forecasting, risk classification, allocation clustering, scenario simulation and recommendations. Optimization outputs must reflect explicit constraints, objectives and management-approved trade-offs.
+Area
+Power BI
+AI
+Finance
+Budget and ROI dashboards
+Return forecasting
+Demand
+Forecast and shortage views
+Demand forecasting
+Resources
+Utilization scorecards
+Allocation optimization
+Risk
+Heatmaps and exceptions
+Risk classification
+Governance
+Lineage and drill-through
+Explainable recommendations
+Responsible use  
+Optimization remains decision support: objectives, constraints, fairness, safety and human authorization must be documented.
+DASHBOARDS 1-3
+10. Suggested Power BI Dashboard Designs
+1. Executive Resource Portfolio
+Purpose
+KPIs
+Visuals
+Users
+Allocation, value and risk
+Budget, profit, ROI, risk
+Cards, portfolio matrix, scenario view
+Executives
+2. Financial Performance
+Purpose
+KPIs
+Visuals
+Users
+Spend and return
+Variance, profit, ROI
+Waterfall, unit bars, return scatter
+CFO
+3. Demand and Inventory
+Purpose
+KPIs
+Visuals
+Users
+Forecast and service
+Accuracy, service, stockout, fulfilment
+Forecast trend, shortage heatmap
+Supply/Product
+DASHBOARDS 4-5
+10. Suggested Power BI Dashboard Designs (continued)
+4. Workforce and Equipment Capacity
+Purpose
+KPIs
+Visuals
+Users
+Operational allocation
+Workforce, equipment, coverage
+Utilization gauges, capacity matrix
+Operations
+5. Predictive Optimization
+Purpose
+KPIs
+Visuals
+Users
+Reallocation priorities
+Risk, priority, ROI, fulfilment
+Risk heatmap, action queue
+Executive/Risk
+Common filters include date, unit, industry, region, resource, project/product, customer, priority, demand, inventory, skills, scenario, risk and decision status. All values reconcile with Dataset Version 1.0.
+INSIGHTS 1-7
+11. Sample Business Insights
+1. 
+Allocated budget totals $2,515,646,929.
+2. 
+Actual spend totals $2,505,324,106, requiring variance review by unit.
+3. 
+Revenue totals $3,050,089,873.
+4. 
+Operating profit totals $1,447,046,442; allocation should protect contribution.
+5. 
+Mean ROI is 22.2%; initiatives should be compared on risk-adjusted return.
+6. 
+Demand-forecast accuracy is 92.6%.
+7. 
+Inventory service level is 98.8%; exceptions still require attention.
+INSIGHTS 8-14
+11. Sample Business Insights (continued)
+8. 
+Workforce utilization is 81.7%.
+9. 
+Equipment utilization is 79.1%.
+10. 
+Capacity coverage reaches 96.5%.
+11. 
+Order fulfilment is 91.5%; remaining gaps affect service.
+12. 
+Mean Resource Risk Score is 8.8/100.
+13. 
+The model identifies 11 reallocation-priority records.
+14. 
+Digital Products produces the highest cumulative operating profit.
+INSIGHTS 15-20
+11. Sample Business Insights (continued)
+15. 
+Investment Portfolio produces the lowest cumulative operating profit.
+16. 
+Supply Disruption has the highest mean resource risk.
+17. 
+Stable has the lowest mean resource risk.
+18. 
+Forecast error should be included in inventory and capacity decisions.
+19. 
+High utilization is not automatically optimal when fulfilment or safety deteriorates.
+20. 
+AI recommendations create value only when constraints and managerial objectives are explicit.
+ANALYTICAL PATHWAYS
+12. Applications in Business Analytics and Artificial Intelligence
+A. Exploratory Data Analysis
+Descriptive statistics, correlations, distributions, outliers and trends.
+B. Power BI Visualization
+KPI cards, dashboards, scorecards and drill-down.
+C. AI-Driven Business Insights
+Regression for demand, revenue and return.
+Classification for risk and reallocation.
+Clustering for resource profiles.
+Forecasting and constrained recommendation.
+Model governance  
+Validate forecasts and recommendations, document constraints, monitor drift and retain human authorization.
+13. Conclusion
+The Team 4 project integrates capital, workforce, equipment, inventory and service capacity with profitability, forecast accuracy, fulfilment and risk. It creates a coherent foundation for evidence-based allocation across heterogeneous business settings.
+The verified dataset supports Power BI, predictive analytics and optimization. Future models should preserve reconciliation and explainability while translating recommendations into accountable managerial decisions.
+Final conclusion  
+Resource optimization is the disciplined alignment of scarce capacity with demand, value and risk - not simply the maximization of utilization.

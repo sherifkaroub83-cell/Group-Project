@@ -1,0 +1,369 @@
+PAGE 1
+Group 9226  |  Capstone description
+Page 1
+Final Capstone Project Description for Group 9226
+Data Analytics for AI Business
+Programme 3_MBAE_S25_MK_AIB_A
+Graduate School of Business (GSB), Miami
+Arab Academy for Science, Technology and Maritime Transport (AASTMT)
+Executive Business Analytics and AI Enabled Decision Support
+A Portfolio of Enterprise Decision Intelligence Projects
+1 Overview
+The final capstone is an integrated assessment of business analytics, business intelligence, Artificial
+Intelligence and executive communication. Each team acts as an executive analytics advisory group, using
+its assigned enterprise dataset to investigate a business problem and develop recommendations that a
+management audience can assess.
+The project follows a decision-focused approach. Students should begin with the decisions and business
+questions, establish trustworthy measures, examine performance and evaluate suitable AI applications.
+Analytical complexity is useful only when it helps answer those questions and the team can explain its
+results and limitations.
+Group 9226 comprises five thematic project teams. The portfolio covers enterprise financial
+performance, quality in asset-intensive projects, predictive maintenance, resource allocation and digital
+transformation. Each team applies the same analytical principles while preserving the operating and
+financial definitions of its assigned scenario.
+The supplied enterprise datasets are fully synthetic educational panels with embedded business rules,
+operational relationships and derived indicators. Their formulas and simulated patterns support
+analytical exercises; they are not observed company outcomes. Correlation alone does not establish
+causation, and predictive performance does not demonstrate achieved savings or operational
+improvement.
+Students will produce a working Power BI dashboard, an executive presentation and a comprehensive
+analytical report. The supplied reference publication explains the case and dataset; the submitted
+capstone must contain the team’s own validation, analysis, implemented dashboard, model evaluation
+and recommendations.
+
+PAGE 2
+Group 9226  |  Capstone description
+Page 2
+2 Learning Outcomes
+On successful completion, students should be able to demonstrate the following capabilities across the
+enterprise analytics lifecycle:
+• Translate a business scenario into explicit executive questions and decision objectives.
+• Interpret the assigned dataset, its grain, dimensions, information timing and synthetic assumptions.
+• Validate completeness, uniqueness, business rules, accounting identities and KPI formulas.
+• Conduct systematic exploratory data analysis of distributions, trends, relationships and anomalies.
+• Engineer and validate derived measures with correct denominators and financial scope.
+• Build interactive Power BI dashboards with a coherent data model, navigation and drill-through.
+• Connect descriptive and diagnostic analysis with suitable predictive or prescriptive applications.
+• Select and evaluate AI methods against informative baselines using appropriate validation.
+• Explain model performance, uncertainty and practical limits in business language.
+• Develop recommendations that recognize operating constraints and the evidence needed for
+implementation.
+• Communicate findings through a professional report and a concise executive briefing.
+• Use AI tools responsibly, disclose their contribution and retain human responsibility for the final
+judgement.
+Evidence of learning
+The dashboard, report and presentation should tell the same business story. KPI definitions, totals,
+model metrics and recommendations must reconcile across all three deliverables. Every team member
+should be able to explain the decisions, evidence and limitations, including the parts developed by other
+members.
+
+PAGE 3
+Group 9226  |  Capstone description
+Page 3
+3 Project Structure and Team Allocation
+The Miami cohort portfolio uses the following five project themes. The official allocation and each team’s
+supplied package govern the detailed business setting and scope.
+Team
+Project theme
+Executive decision domain
+1
+AI-Enabled Enterprise Performance and
+Financial Decision-Support System
+Financial, commercial, operational and service performance
+2
+Predictive Quality and Operational
+Performance Analytics for
+Asset-Intensive Projects
+Quality, inspections, rework, cost and schedule
+3
+AI-Driven Predictive Maintenance and
+Asset Reliability Decision-Support System
+Condition, failures, work orders, downtime and economic
+impact
+4
+AI-Assisted Resource Allocation and
+Business Performance Optimization
+Capital, workforce, equipment, inventory and service
+capacity
+5
+AI-Enabled Operational Intelligence and
+Digital Transformation Dashboard
+Cost control, integration, digital adoption and operational
+reliability
+Integrated team effort
+Each team functions as an Executive Analytics Advisory Group. Individual submissions are not permitted.
+Team membership follows the official Group 9226 allocation. Each team should preserve the business
+scope and controlled definitions in its assigned package.
+Assign clear responsibilities, maintain a common analytical file structure and record the work completed
+by each member. Technical tasks may be distributed, but the final dashboard, report and presentation
+must be integrated and consistent.
+Dataset and reference materials
+Use the assigned CSV, supporting analytics workbook and data dictionary as the analytical basis. The
+published project reference supports understanding of the scenario, variable definitions and potential
+dashboard designs. Teams should verify supplied results, develop their own analysis and clearly
+distinguish reference material from new findings.
+Preserve the approved master dataset. Perform transformations in a documented analytical copy or
+Power Query workflow. If a material business-rule issue is found, document it and consult the instructors
+before changing the underlying scenario or silently rewriting source values.
+
+PAGE 4
+Group 9226  |  Capstone description
+Page 4
+4 Project Scope
+4.1 Dataset Governance
+Establish the analytical grain and data dictionary before calculating executive results. Check row and
+variable counts, missing values, duplicates, data types, dimensional consistency and date coverage.
+Validate operational conservation, inventory continuity and financial formulas where applicable.
+• Record the checks performed and summarize passed checks and unresolved exceptions.
+• Distinguish source-quality measures from missing values in the canonical dataset.
+• Document zero-denominator handling, repeated counts and exclusions from financial measures.
+• Retain a traceable transformation workflow and reconcile results to the assigned master.
+The instructor’s internal dataset engineering process is separate from the student submission. The
+student report should present its own governance methodology and evidence, not reproduce the
+internal engineering workflow as a publication section.
+4.2 Exploratory Data Analysis
+Investigate distributions, operational and financial trends, customer or account patterns where
+represented, correlations, outliers, anomalies and executive indicators. Use business interpretation to
+explain the results and their significance for the assigned decisions.
+• Use appropriate descriptive statistics and disclose the relevant populations and periods.
+• Review performance by enterprise dimensions and compare like-for-like units.
+• Distinguish accounting or operational identities from independent associations.
+• Investigate outliers before removal; preserve valid exceptional observations.
+• Avoid interpreting fictional geography or simulated relationships as measured real-world evidence.
+EDA provides the foundation for dashboard measures, feature selection and modelling. Include clear
+evidence of how exploratory findings informed later analytical choices.
+
+PAGE 5
+Group 9226  |  Capstone description
+Page 5
+4 Project Scope Continued
+4.3 Data Transformation and Feature Engineering
+Prepare the data for Power BI and any selected AI method. Set appropriate data types, construct
+dimensions, document transformations and validate engineered variables. Derive executive KPIs with
+explicit formulas, business meanings and portfolio aggregation rules.
+Use matching summed numerators and denominators where appropriate. Do not average row rates
+without considering their weights, double-count linked indicators or sum repeated entity counts as
+unique customers or employees. Distinguish predictors available before a decision from outcomes
+observed afterward.
+4.4 Executive Dashboard Development
+Build executive-ready Power BI views with KPI scorecards, interactive slicers, navigation, drill-through,
+trends and comparative analysis. Geographic views are appropriate only where meaningful locations are
+provided. Use consistent currency, units, labels and visual formatting.
+The project reference contains five suggested dashboard designs. Adapt and implement suitable views
+within a coherent PBIX file. The requirement for at least five visualization types is distinct from the
+number of dashboard pages; choose page count and layout to support the assigned business decisions.
+4.5 Artificial Intelligence Applications
+Investigate suitable classification, clustering, regression, forecasting, recommendation or prioritization
+methods. Select methods because they answer a business question; every listed technique need not be
+applied. Each selected model requires business justification, transparent inputs, evaluation and executive
+interpretation.
+Compare predictive models with an informative baseline. For time-dependent scenarios, use
+chronological validation and prevent current-outcome leakage. Report relevant metrics, error patterns
+and limitations. Clustering requires a clear profile interpretation and a stability or suitability assessment.
+State whether an application was executed or only proposed.
+4.6 Executive Recommendations
+Recommendations should address the identified problems, cite analytical evidence, recognize constraints
+and identify a practical owner or next step. Separate demonstrated findings from proposed actions and
+unvalidated impact estimates. Optimization claims require explicit objectives, feasible constraints and a
+solved comparison; descriptive rankings alone do not establish an optimal decision.
+
+PAGE 6
+Group 9226  |  Capstone description
+Page 6
+5 Mandatory Project Deliverables
+Each team must submit three integrated deliverables. Use the formats below and keep all claims and
+measures consistent across files.
+A Enterprise Power BI Dashboard
+Required file format: .pbix
+• An executive landing page explaining the key decision and portfolio performance.
+• A minimum of five appropriate visualization types across the report.
+• Executive KPIs with validated definitions and aggregation.
+• Interactive slicers and navigation that support coherent exploration.
+• Drill-through into relevant entities or operational exceptions.
+• Trend and comparative views with clear units and reporting periods.
+• Professional formatting and decision-oriented visual storytelling.
+The PBIX must open and function as submitted. Check filters, relationships, measure results and
+drill-through interactions. Where a local CSV source is used, load the data into the model and document
+the source and refresh procedure in the PDF report; do not rely on an unavailable personal path for the
+reviewer to inspect the saved dashboard.
+B Executive Presentation
+Required file format: .pptx
+Recommended length: 12-15 professional slides
+• Business context, executive problem and key questions.
+• Dataset scope and a concise account of governance and methodology.
+• Demonstration of the implemented dashboard and its decision value.
+• Selected AI application, evaluation against a baseline and limitations.
+• Numerical executive insights and evidence-based recommendations.
+• Decision implications, proposed next steps and responsibility.
+The presentation should prioritize a coherent executive story. Detailed calculations and supporting
+diagnostics belong in the report, with only the evidence needed for the management discussion shown
+on slides.
+
+PAGE 7
+Group 9226  |  Capstone description
+Page 7
+5 Mandatory Project Deliverables Continued
+C Comprehensive Analytical Report
+Required file format: .pdf
+Recommended length: 20-25 pages
+The report should document the team’s completed analytical work. The supplied reference publication is
+a case resource, not a replacement for this submission. Its variable matrices and suggested designs may
+be summarized or referenced, while the capstone report presents actual governance, EDA, dashboard
+implementation, model results and recommendations.
+Report component
+Expected evidence
+Executive Summary
+Business problem, main findings, decisions and limits
+Introduction and Business Context
+Enterprise setting, stakeholders and scope
+Business Questions
+Explicit questions aligned with the assigned decisions
+Dataset Description
+Grain, coverage, dimensions, variables and synthetic provenance
+Methodology and Governance
+Checks, transformations, reconciliation and unresolved issues
+Exploratory Data Analysis
+Distributions, trends, relationships, anomalies and interpretation
+Dashboard Design and Implementation
+Actual views, measures, interactions and decision use
+AI Applications
+Inputs, timing, evaluation, baseline and model limitations
+Executive Insights
+Numerical findings traceable to the verified analytical data
+Strategic Recommendations
+Evidence, constraints, priorities and practical next steps
+Conclusion
+Decision implications and further evidence required
+AI Usage Disclosure
+Tools, purposes, assistance scope and human validation
+Analytical traceability
+Show formulas, relevant denominators and model metrics with enough detail for review. Place
+supplementary validation tables and modelling evidence within report appendices as needed. Keep
+references and team contribution information within the same PDF so the submission stays within the
+three-file limit.
+
+PAGE 8
+Group 9226  |  Capstone description
+Page 8
+6 Executive Presentation Requirements
+Each team will deliver an executive briefing of approximately 15 minutes. The session should simulate a
+meeting with senior management or a board. Presentation scheduling and any separate question period
+will be announced by the instructors.
+Executive briefing expectations
+• Define the management problem and the decision your analysis supports.
+• Demonstrate the dashboard and explain how its views answer the business questions.
+• Present the strongest numerical findings with clear business meaning.
+• Explain the selected AI application, baseline comparison and performance limits.
+• Prioritize practical recommendations and disclose constraints and unvalidated benefits.
+• Respond to questions about data definitions, measures, model choices and team judgement.
+• Manage time and coordinate transitions between presenters.
+Professional communication
+Assessment considers executive presence, clarity, confidence, storytelling, business relevance,
+evidence-based recommendations, time management and response to questions. Technical detail should
+be included where it supports a management decision, with terminology explained for the intended
+audience.
+Suggested briefing sequence
+Part
+Focus
+Opening
+Business context and decision objectives
+Evidence
+Validated KPIs, EDA findings and dashboard demonstration
+AI evaluation
+Selected method, baseline, results and limits
+Recommendation
+Priorities, constraints, next steps and decision request
+Rehearse as a team and verify that slides, dashboard and report use the same totals and definitions.
+Every member remains responsible for understanding the integrated submission. Report a weak model
+honestly rather than replacing evidence with an unsupported claim of success.
+
+PAGE 9
+Group 9226  |  Capstone description
+Page 9
+7 Assessment Criteria
+Total assessment: 90 marks
+Assessment component
+Marks
+Assessment focus
+Dataset Governance and Data
+Preparation
+10
+Validation, consistency, business-rule checks,
+transformations and KPI integrity.
+Exploratory Data Analysis
+10
+Patterns, trends, anomalies, relationships and sound
+business interpretation.
+Executive Power BI Dashboard Design
+15
+Executive relevance, architecture, KPIs, interactivity,
+navigation, drill-through and usability.
+Analytical Depth and Executive Insights
+15
+Integration of variable types, numerical evidence,
+interpretation and decision value.
+AI Applications and Strategic
+Recommendations
+10
+Method suitability, evaluation, baseline comparison,
+explainability and practical recommendations.
+Comprehensive Written Report
+10
+Methodology, organization, coherence, analytical rigor and
+professional communication.
+Executive Presentation and
+Professional Communication
+20
+Executive presence, clarity, storytelling, demonstration,
+time management and responses.
+Total
+90
+Integrated enterprise analytics and executive decision
+support
+Evaluation emphasizes analytical quality, business understanding, defensible conclusions and
+professional communication. A model that does not outperform its baseline can still demonstrate strong
+analytical judgement when its evaluation is rigorous and its limitations are communicated.
+8 Submission Requirements
+Upload one team package through Moodle containing exactly three files: the Power BI dashboard (.pbix),
+executive presentation (.pptx) and comprehensive report (.pdf). Individual submissions are not
+permitted.
+Use the naming pattern Group_9226_Team_N_Dashboard.pbix,
+Group_9226_Team_N_Presentation.pptx and Group_9226_Team_N_Report.pdf, replacing N with your
+team number. Confirm that all files open correctly and that the PBIX contains its saved analytical data.
+Submission deadline: To be announced. The instructors will confirm the deadline through Moodle. Late
+submissions require official approval in accordance with Graduate School regulations. Include supporting
+analyses and disclosure within the required files; do not add a fourth upload.
+
+PAGE 10
+Group 9226  |  Capstone description
+Page 10
+9 Responsible AI and AI Usage Disclosure
+AI tools may support brainstorming, coding, documentation, visualization and drafting. Each team
+remains responsible for interpreting the dataset, selecting models, validating calculations, exercising
+business judgement and producing its final recommendations and conclusions.
+Required disclosure
+Include an AI Usage Disclosure Statement in the report that specifies:
+• The AI tools used.
+• The purpose of each use and the scope of assistance.
+• The tasks and content generated or revised with AI support.
+• The checks performed by team members to validate calculations, code, sources and conclusions.
+• Confirmation that final analytical judgement and responsibility remain with the project team.
+Distinguish a predictive or analytical model from a generative AI assistant. Explain both where used. Do
+not present AI-generated text, invented figures or unverified model results as analytical evidence.
+Preserve the synthetic provenance of the assigned data and acknowledge the limits of generalization.
+10 Final Guidance
+The capstone demonstrates how a management team can turn a defined business problem and
+trustworthy analytical data into an executive discussion. Strong work combines validated measures,
+appropriate analysis, a usable dashboard, honest model evaluation and recommendations that respect
+the evidence.
+Use the assigned enterprise framework consistently, but adapt the interpretation to the scenario. Explain
+what happened in the synthetic setting, what management should investigate and what additional
+information is needed before acting. A descriptive association is not a proven causal effect, a forecast is
+not an optimized plan, and proposed benefits are not realized gains.
+Maintain an integrated team workflow, review all deliverables together and prepare to defend the
+reasoning behind the conclusions. Every visual should answer a business question, every selected model
+should support a decision and every recommendation should state its evidence and practical limits.
+Course Instructors
+Dr. Yasser Aly Yakout Shehata & Dr. Hossam Daoud
+Graduate School of Business (GSB), Miami
+Arab Academy for Science, Technology and Maritime Transport (AASTMT)

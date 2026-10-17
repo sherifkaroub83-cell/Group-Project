@@ -1,0 +1,964 @@
+table Allocation
+	lineageTag: 27248663-39fd-488c-a080-06286bfbc4dd
+
+	measure 'Allocated Budget' = SUM(Allocation[Budget_Allocated_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 30246e3f-07e8-44aa-b4b5-ef20cf06af0d
+
+	measure 'Actual Spend' = SUM(Allocation[Actual_Spend_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: c421fdbe-fe30-49e1-b7a7-a3c7a1b3d106
+
+	measure Revenue = SUM(Allocation[Revenue_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 8a6c7e5f-7606-464f-9d97-e08a3ec2c0d1
+
+	measure 'Operating Profit' = SUM(Allocation[Operating_Profit_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 159b20bb-d4f7-4868-920d-946aeccf212c
+
+	measure 'Direct Cost' = SUM(Allocation[Direct_Cost_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 276d50a7-c159-47e0-8b40-186eda2c5fbe
+
+	measure 'Operating Cost' = SUM(Allocation[Operating_Cost_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: ef199af3-dc2e-4912-87cd-53054ac14f95
+
+	measure Investment = SUM(Allocation[Investment_Amount_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: f04f7c90-a4f2-4a64-8f55-0ef174f68190
+
+	measure 'Expected Return' = SUM(Allocation[Expected_Return_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 45e41c06-4c7e-4aa5-b105-5693a9f2c05a
+
+	measure 'Budget Remaining' = SUM(Allocation[Budget_Variance_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 29977396-3ddc-472a-b6c4-d2642032cced
+
+	measure 'Forecast Revenue' = SUM(Allocation[Forecast_Revenue_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: a8bb99d6-2a16-45f3-9e0a-91306e7ab2df
+
+	measure 'Maintenance Cost' = SUM(Allocation[Maintenance_Cost_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 434263ec-7e0e-4c29-ae23-3551fcbd875e
+
+	measure Demand = SUM(Allocation[Demand_Units])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 0fcba52b-c33b-48d0-a14f-89e23e5205ca
+
+	measure Supply = SUM(Allocation[Supply_Units])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: c1961c20-7695-4f26-b235-b1da6ae64cb5
+
+	measure Inventory = SUM(Allocation[Inventory_Units])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: f6f658a0-731c-4a2a-85b7-895e1d05b2bc
+
+	measure Stockouts = SUM(Allocation[Stockout_Units])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: b5076191-0cfa-4050-9ce6-a86d5e054fd3
+
+	measure 'Forecast Demand' = SUM(Allocation[Forecast_Demand])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 582fc6e0-1fa5-40aa-a77a-9098e6071896
+
+	measure 'Orders Completed' = SUM(Allocation[Orders_Completed])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: cb507df1-16f7-4912-aa4f-74980b04a07f
+
+	measure 'Orders Delayed' = SUM(Allocation[Orders_Delayed])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: a0ed55c9-4523-4c6f-bbbc-2f1a5f7e2614
+
+	measure 'Workforce Available' = SUM(Allocation[Workforce_Available_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 7ea0fff9-c0c2-43b6-8da3-ee9faeec8de0
+
+	measure 'Workforce Allocated' = SUM(Allocation[Workforce_Allocated_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 3ee8f8a7-d326-4149-a546-7c90cb9ce8d9
+
+	measure 'Equipment Available' = SUM(Allocation[Equipment_Available_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: d8d95e2b-a546-4972-8d87-80c5807282b4
+
+	measure 'Equipment Allocated' = SUM(Allocation[Equipment_Allocated_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 39ea8ac3-5c29-4558-87d6-7d8f3fbdb0da
+
+	measure 'Downtime Hours' = SUM(Allocation[Downtime_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 6c542d6e-bde5-4c37-a713-12aa4cf499ad
+
+	measure 'Training Hours' = SUM(Allocation[Training_Hours])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 86896bd2-3721-4f74-98c5-ab61cb79944c
+
+	measure 'Service Capacity' = SUM(Allocation[Service_Capacity])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 95496434-bcff-48a4-a06f-b62f75cf8acd
+
+	measure 'Service Demand' = SUM(Allocation[Service_Demand])
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: ba975b47-b38d-41c4-a92f-3e2da0cdae12
+
+	measure Records = COUNTROWS(Allocation)
+		formatString: #,0
+		displayFolder: 01 Overview
+		lineageTag: 45c28f1c-a2a0-442c-b6bf-f6ec598d0444
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean ROI' = AVERAGE(Allocation[ROI_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: f03b4ae3-c356-40b4-a660-6f24ec8db927
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Forecast Accuracy' = AVERAGE(Allocation[Demand_Forecast_Accuracy_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: e378bfcc-015e-4039-9081-7ad12cc94a69
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Inventory Service' = AVERAGE(Allocation[Inventory_Service_Level_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 9aa5b0c3-68a8-4e12-b82f-8aa7cc808b70
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Workforce Utilization' = AVERAGE(Allocation[Workforce_Utilization_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: a3d620ab-62e8-435d-bbaf-decb81c42064
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Equipment Utilization' = AVERAGE(Allocation[Equipment_Utilization_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: b50c3d7f-a587-4481-84ad-310b87f1c2e1
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Capacity Coverage' = AVERAGE(Allocation[Capacity_Coverage_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: fef2a1d6-dd02-4452-b146-1bebc23fbb04
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Order Fulfilment' = AVERAGE(Allocation[Order_Fulfilment_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 0888ff0a-ed02-4a7f-a995-36af52b8572d
+
+	/// Unweighted mean of supplied record-level percentages; reconciles to publication where applicable.
+	measure 'Mean Safety Compliance' = AVERAGE(Allocation[Safety_Compliance_Pct])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 8a8ef6dd-4e67-4c69-bc74-17b2faae9ff3
+
+	measure 'Mean Resource Risk' = AVERAGE(Allocation[Resource_Risk_Score])
+		formatString: 0.0
+		displayFolder: 05 Risk and decisions
+		lineageTag: ae0c957f-5b1d-4ad8-81ad-36c1b398233e
+
+	measure 'Mean Optimization Priority' = AVERAGE(Allocation[Optimization_Priority_Score])
+		formatString: 0.0
+		displayFolder: 05 Risk and decisions
+		lineageTag: e6a7c791-415d-41b6-bd9d-6c45c250054b
+
+	measure 'Customer Satisfaction' = AVERAGE(Allocation[Customer_Satisfaction_Score])
+		formatString: 0.0
+		displayFolder: 05 Risk and decisions
+		lineageTag: d3b6b386-ab93-4092-b458-cf2b60b9a1e3
+
+	/// Total spend / total allocated budget.
+	measure 'Budget Utilization' = DIVIDE([Actual Spend],[Allocated Budget])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 86a148b9-d001-4e71-b89f-66ceadacf7a5
+
+	/// Operating profit / revenue; not EBITDA.
+	measure 'Operating Margin' = DIVIDE([Operating Profit],[Revenue])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: e5c982e1-d443-4dfd-814a-7a9b1bc0ed90
+
+	/// Investment-weighted expected net return; distinct from mean record ROI.
+	measure 'Portfolio Expected ROI' = DIVIDE([Expected Return]-[Investment],[Investment])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: cc81f8ae-9514-4089-9ef4-96af70bc3d4f
+
+	/// Allocated / available hours; weighted by available hours.
+	measure 'Workforce Utilization' = DIVIDE([Workforce Allocated],[Workforce Available])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: d2355634-660f-43d5-9eca-420b252c1cb1
+
+	/// Allocated / available hours; weighted by available hours.
+	measure 'Equipment Utilization' = DIVIDE([Equipment Allocated],[Equipment Available])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 85bd760d-e296-4fcb-8379-431b4ae48b20
+
+	/// Completed / (completed + delayed) orders.
+	measure 'Order Completion Rate' = DIVIDE([Orders Completed],[Orders Completed]+[Orders Delayed])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 96aabbd2-a700-48b1-bd9a-2a4613a06ab6
+
+	/// Digital / total transactions.
+	measure 'Digital Adoption' = DIVIDE(SUM(Allocation[Digital_Transactions]),SUM(Allocation[Total_Transactions]))
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: 3d3e977a-d25a-498f-ade3-b40c74eb03b4
+
+	/// Sum absolute forecast error / actual demand. Existing synthetic forecasts; not new model validation.
+	measure 'Demand WAPE' = DIVIDE(SUMX(Allocation,ABS(Allocation[Demand_Units]-Allocation[Forecast_Demand])),[Demand])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 04 Rates
+		lineageTag: dfc442ea-39af-46fd-8a85-e7a4ddfffbe9
+
+	measure 'Average CAC' = AVERAGE(Allocation[Customer_Acquisition_Cost_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: 2cf7881f-2b8a-46bc-bc17-0dcdda6c1758
+
+	measure 'Average LTV' = AVERAGE(Allocation[Customer_Lifetime_Value_USD])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 02 Finance
+		lineageTag: e2292f09-103d-4b27-adaa-7f503af9a859
+
+	/// Ratio of average supplied LTV to average supplied CAC.
+	measure 'LTV to CAC' = DIVIDE([Average LTV],[Average CAC])
+		formatString: 0.0"x"
+		displayFolder: 02 Finance
+		lineageTag: 71037687-32b3-443e-af80-4ff9430f949f
+
+	measure 'Unused Workforce Hours' = [Workforce Available]-[Workforce Allocated]
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: cfe56f50-301d-4183-97ce-712b00c4dbe5
+
+	measure 'Unused Equipment Hours' = [Equipment Available]-[Equipment Allocated]
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: 6bf2c04c-f35a-41a1-95e1-bf3014be837d
+
+	/// Sum of positive record-level capacity gaps; avoids netting surplus against unrelated shortages.
+	measure 'Capacity Shortfall' = SUMX(Allocation,MAX(0,Allocation[Service_Demand]-Allocation[Service_Capacity]))
+		formatString: #,0
+		displayFolder: 03 Operations
+		lineageTag: ab346929-0e04-49c2-87ad-213685820b7b
+
+	measure 'Review Records' = CALCULATE([Records],KEEPFILTERS(Allocation[Decision_Status] = "Review"))
+		formatString: #,0
+		displayFolder: 05 Risk and decisions
+		lineageTag: 7660f2b0-938a-4eeb-b1ad-f6ab82fcb468
+
+	/// Count of supplied Reallocate labels; no undocumented score threshold inferred.
+	measure 'Reallocation Records' = CALCULATE([Records],KEEPFILTERS(Allocation[Decision_Status] = "Reallocate"))
+		formatString: #,0
+		displayFolder: 05 Risk and decisions
+		lineageTag: a6ed9ade-3ed9-4c84-976d-ae469728a7c7
+
+	measure 'Attention Records' = CALCULATE([Records],KEEPFILTERS(Allocation[Decision_Status] <> "Maintain"))
+		formatString: #,0
+		displayFolder: 05 Risk and decisions
+		lineageTag: 123b324f-2676-4cf6-bfae-256bcf6dc16a
+
+	measure 'Attention Budget' = CALCULATE([Allocated Budget],KEEPFILTERS(Allocation[Decision_Status] <> "Maintain"))
+		formatString: $#,0;($#,0);$0
+		displayFolder: 05 Risk and decisions
+		lineageTag: 543a086d-4a56-4468-9851-9f8fe74d95a9
+
+	measure 'Selected Demand Change' = SELECTEDVALUE('Demand Scenario'[Demand Change],0)
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 06 Scenario
+		lineageTag: 1c9a9143-d77a-4cbd-bc8a-b6386f8d2e62
+
+	measure 'Scenario Demand' = [Service Demand]*(1+[Selected Demand Change])
+		formatString: #,0
+		displayFolder: 06 Scenario
+		lineageTag: 835edb86-506d-47f9-916c-4e0d035a9e31
+
+	/// Illustrative scenario with fixed capacity. No optimization solver or trained AI model is implied.
+	measure 'Scenario Capacity Gap' = SUMX(Allocation,MAX(0,Allocation[Service_Demand]*(1+[Selected Demand Change])-Allocation[Service_Capacity]))
+		formatString: #,0
+		displayFolder: 06 Scenario
+		lineageTag: 68d72b3e-317f-4fd3-9909-0ec9978b4ed0
+
+	measure 'Scenario Coverage' = DIVIDE(SUMX(Allocation,MIN(Allocation[Service_Capacity],Allocation[Service_Demand]*(1+[Selected Demand Change]))),[Scenario Demand])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 06 Scenario
+		lineageTag: 89ae6ced-7ab2-455a-a433-04e1f42687b3
+
+	/// Positive = budget remaining; negative = overspend. Net totals can hide record exceptions.
+	measure 'Net Budget Variance' = [Allocated Budget]-[Actual Spend]
+		formatString: $#,0;($#,0);$0
+		displayFolder: 07 Decision intelligence
+		lineageTag: e4891927-ffcc-4486-a992-2765adf0b377
+
+	/// Sum positive record overspend; not netted against underspend.
+	measure 'Overspend Amount' = SUMX(Allocation,MAX(0,Allocation[Actual_Spend_USD]-Allocation[Budget_Allocated_USD]))
+		formatString: $#,0;($#,0);$0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 7d72c583-25c2-4ef2-9877-1f1acb5d1562
+
+	/// Records with spending greater than allocated budget.
+	measure 'Overspend Records' = COUNTROWS(FILTER(Allocation,Allocation[Actual_Spend_USD]>Allocation[Budget_Allocated_USD]))
+		formatString: #,0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 7e027a13-ef2d-493c-939e-15a8064bc7b6
+
+	/// Supplied record ROI below zero.
+	measure 'Negative ROI Records' = COUNTROWS(FILTER(Allocation,Allocation[ROI_Pct]<0))
+		formatString: #,0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 57b56b3d-8c57-4dab-9e00-0b24fc73de2d
+
+	/// Delayed / (completed + delayed); ratio of sums.
+	measure 'Order Delay Rate' = DIVIDE([Orders Delayed],[Orders Completed]+[Orders Delayed])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: ce30f76a-1bcc-419b-94f6-f093cedfed0f
+
+	/// Completed plus delayed orders in selected observations.
+	measure 'Total Orders' = [Orders Completed]+[Orders Delayed]
+		formatString: #,0
+		displayFolder: 07 Decision intelligence
+		lineageTag: f37eeb37-8733-4467-b801-fe6d199e9a1a
+
+	/// Stockout units / actual demand units.
+	measure 'Shortage Rate' = DIVIDE([Stockouts],[Demand])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: 186c8797-ac9c-4d11-a103-dc6ab47a74fc
+
+	/// Positive = supplied forecast overestimates actual demand; signed summed error / actual demand.
+	measure 'Forecast Bias' = DIVIDE([Forecast Demand]-[Demand],[Demand])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: a448000c-6ab8-4fee-81c9-0dac82ff224b
+
+	/// Mean inventory observation; not current stock on hand and not a three-year inventory total.
+	measure 'Mean Inventory Observation' = AVERAGE(Allocation[Inventory_Units])
+		formatString: #,0.0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 4a387ac9-c529-4b5b-be7f-cb173aefc448
+
+	/// Revenue / allocation observations. Controls population size, not changing portfolio mix.
+	measure 'Revenue per Record' = DIVIDE([Revenue],[Records])
+		formatString: $#,0;($#,0);$0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 07879b97-c898-4c4f-a693-f8cf69ad3e0e
+
+	/// Actual demand / observed records; not a continuous demand forecast.
+	measure 'Demand per Record' = DIVIDE([Demand],[Records])
+		formatString: #,0.0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 4beb2bb9-4b27-4e87-9ecf-938056e492c5
+
+	/// Supplied forecast / observed records, paired with actual demand.
+	measure 'Forecast per Record' = DIVIDE([Forecast Demand],[Records])
+		formatString: #,0.0
+		displayFolder: 07 Decision intelligence
+		lineageTag: d885de18-f115-4b03-b858-a240ed789589
+
+	/// Downtime / allocation records; observations, not unique asset hours.
+	measure 'Downtime per Record' = DIVIDE([Downtime Hours],[Records])
+		formatString: 0.0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 69142439-5872-47de-8d58-a7ec83463847
+
+	/// Positive record-level gaps summed / total service demand.
+	measure 'Capacity Gap Rate' = DIVIDE([Capacity Shortfall],[Service Demand])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: 9b453efd-58dc-411d-8ba1-be41383e0e8c
+
+	/// Records with positive baseline service-capacity shortfall.
+	measure 'Shortage Records' = COUNTROWS(FILTER(Allocation,Allocation[Service_Demand]>Allocation[Service_Capacity]))
+		formatString: #,0
+		displayFolder: 07 Decision intelligence
+		lineageTag: 06ae466a-c21c-4d1c-bb57-0368f714e09d
+
+	/// Demand covered at each record, capped at demand, then aggregated.
+	measure 'Baseline Coverage' = IF([Service Demand]>0,1-DIVIDE([Capacity Shortfall],[Service Demand]))
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: 2fe0e6b9-b1b3-47c3-bcde-330f2ef20e13
+
+	/// Selected demand scenario shortfall minus baseline shortfall; units.
+	measure 'Gap Change' = [Scenario Capacity Gap]-[Capacity Shortfall]
+		formatString: +#,0;-#,0;0
+		displayFolder: 07 Decision intelligence
+		lineageTag: d76a17e8-9353-46ea-8239-2862fa3ef9f6
+
+	/// Percentage-point difference from baseline coverage.
+	measure 'Coverage Change' = ([Scenario Coverage]-[Baseline Coverage])*100
+		formatString: +0.0" pp";-0.0" pp";0.0" pp"
+		displayFolder: 07 Decision intelligence
+		lineageTag: 2139b48a-5abd-47f8-a51c-ad0fd4cb913a
+
+	/// Supplied Review/Reallocate count / selected record count.
+	measure 'Attention Share' = DIVIDE([Attention Records],[Records])
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 07 Decision intelligence
+		lineageTag: 13768a05-f355-40fb-9022-6bf82c85018f
+
+	/// Associated budget, not savings or an approved transfer amount.
+	measure 'Attention Budget M' = DIVIDE([Attention Budget],1000000)
+		formatString: $0.00"m"
+		displayFolder: 07 Decision intelligence
+		lineageTag: 9a729d29-6b83-46a0-804f-6c77c2ad84cd
+
+	/// Sensitivity calculation; supplied labels and scores do not change.
+	measure 'Demand Context' = "Demand change: " & FORMAT([Selected Demand Change],"+0%;-0%;0%") & " | capacity held fixed"
+		displayFolder: 07 Decision intelligence
+		lineageTag: ce513ae5-6007-450d-897e-33cd3e8f1125
+
+	/// Visible filter context; empty selections are explicitly identified.
+	measure 'Context Label' = IF(ISEMPTY(Allocation),"No matching observations",FORMAT([Records],"#,0") & " records | " & IF(ISFILTERED(Calendar[Year]),CONCATENATEX(VALUES(Calendar[Year]),Calendar[Year],", "),"2024-2026") & " | " & IF(HASONEVALUE(Allocation[Business_Unit]),SELECTEDVALUE(Allocation[Business_Unit]),FORMAT(DISTINCTCOUNT(Allocation[Business_Unit]),"0") & " business units"))
+		displayFolder: 07 Decision intelligence
+		lineageTag: 8b9bd7fe-1efd-4759-9b4a-3788e382cb0e
+
+	/// Filter-responsive evidence, not a recommendation of optimal allocations.
+	measure 'Executive Insight' = IF(ISEMPTY(Allocation),"No records match these filters. Use Reset filters.",FORMAT([Attention Records],"#,0") & " supplied exceptions carry " & FORMAT([Attention Budget]/1000000,"$0.0") & "m of budget. " & FORMAT([Order Delay Rate],"0.0%") & " of orders are delayed; " & FORMAT([Capacity Shortfall],"#,0") & " service units lack record-level capacity. Investigate constraints before reallocating.")
+		displayFolder: 07 Decision intelligence
+		lineageTag: 44c7d974-a582-4faf-9473-bc5874f172c4
+
+	/// Inherited record identity, date, unit and initiative.
+	measure 'Record Context' = IF(HASONEVALUE(Allocation[Record_ID]),SELECTEDVALUE(Allocation[Record_ID]) & " | " & FORMAT(SELECTEDVALUE(Allocation[Record_Date]),"dd MMM yyyy") & " | " & SELECTEDVALUE(Allocation[Business_Unit]) & " | " & SELECTEDVALUE(Allocation[Project_or_Product]),"Select one record via drill-through")
+		displayFolder: 07 Decision intelligence
+		lineageTag: f23732f6-4a44-4296-83eb-e22576c41a01
+
+	/// Observed flags explain evidence; supplied status formula is undocumented.
+	measure 'Record Exception' = IF(HASONEVALUE(Allocation[Record_ID]),"Supplied status: " & SELECTEDVALUE(Allocation[Decision_Status]) & ". " & IF([Capacity Shortfall]>0,"Capacity shortage; ","No baseline capacity shortage; ") & IF([Orders Delayed]>0,"delayed orders; ","") & IF([Net Budget Variance]<0,"overspending; ","") & IF([Portfolio Expected ROI]<0,"negative expected ROI; ","") & "Review timing, skills, location and approval constraints.","Drill through from an allocation ID to inspect the evidence.")
+		displayFolder: 07 Decision intelligence
+		lineageTag: f4ff8f6f-19cd-42ad-ac9a-2af7c1bbc54a
+
+	/// Semantic adverse/favorable color; numbers and labels remain primary.
+	measure 'Gap Color' = IF([Scenario Capacity Gap]>[Capacity Shortfall],"#B84646","#007F87")
+		displayFolder: 07 Decision intelligence
+		lineageTag: 8ef7aca9-aa0e-42e8-b2bb-3aa0f2b623be
+
+	/// Negative budget remaining is adverse.
+	measure 'Variance Color' = IF([Net Budget Variance]<0,"#B84646","#007F87")
+		displayFolder: 07 Decision intelligence
+		lineageTag: be4502bb-3386-4f56-934f-4173f309ef4e
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Test Records' = COUNTROWS(Predictions)
+		formatString: #,0
+		displayFolder: 08 Model evaluation
+		lineageTag: 7a294088-0532-4966-9f64-b3c35c439aa9
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Model MAE' = AVERAGE(Predictions[Model_Absolute_Error])
+		formatString: 0.00
+		displayFolder: 08 Model evaluation
+		lineageTag: 96e13726-cdf9-42ba-9635-3a8809a19983
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Baseline MAE' = AVERAGE(Predictions[Baseline_Absolute_Error])
+		formatString: 0.00
+		displayFolder: 08 Model evaluation
+		lineageTag: eee2957d-a277-49c3-aa9d-26e6765d5024
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Model RMSE' = SQRT(AVERAGE(Predictions[Model_Squared_Error]))
+		formatString: 0.00
+		displayFolder: 08 Model evaluation
+		lineageTag: 8debe33e-37b0-4f23-b136-01e9d9c94e1b
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Baseline RMSE' = SQRT(AVERAGE(Predictions[Baseline_Squared_Error]))
+		formatString: 0.00
+		displayFolder: 08 Model evaluation
+		lineageTag: 9923c06c-4090-41d2-96e1-760b7b7e242b
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Model WAPE' = DIVIDE(SUM(Predictions[Model_Absolute_Error]),SUM(Predictions[Actual_Demand]))
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 08 Model evaluation
+		lineageTag: bdc1f522-7753-4a85-ae02-38319f97b596
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Baseline WAPE' = DIVIDE(SUM(Predictions[Baseline_Absolute_Error]),SUM(Predictions[Actual_Demand]))
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 08 Model evaluation
+		lineageTag: c2eee63e-6d9e-4bd9-8c7b-33fa93495a06
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'MAE Difference' = [Model MAE]-[Baseline MAE]
+		formatString: +0.00;-0.00;0.00
+		displayFolder: 08 Model evaluation
+		lineageTag: 52428f08-2342-466d-a292-da382e8dcbc9
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Model Bias' = DIVIDE(SUM(Predictions[Model_Prediction])-SUM(Predictions[Actual_Demand]),SUM(Predictions[Actual_Demand]))
+		formatString: 0.0%;(0.0%);0.0%
+		displayFolder: 08 Model evaluation
+		lineageTag: 601a2949-7970-4e0e-b34b-7aa3fda1ad04
+
+	/// 2026 held-out records only; filters do not retrain the model. Positive MAE difference is worse than baseline.
+	measure 'Model Finding' = IF(ISEMPTY(Predictions),"No 2026 held-out records in this selection.",IF([Model MAE]<[Baseline MAE],"Ridge has lower MAE in this selection.","Historical unit baseline has lower MAE in this selection.") & " Full held-out test: ridge 113.96 vs baseline 113.42 units. No overall predictive improvement demonstrated.")
+		displayFolder: 08 Model evaluation
+		lineageTag: 55304f72-0172-47de-92cd-7a0817c76656
+
+	measure 'Top Initiative' = VAR SelectedItems = ALLSELECTED(Allocation[Project_or_Product]) VAR TopItems = TOPN(5, SelectedItems, [Operating Profit], DESC, Allocation[Project_or_Product], ASC) RETURN IF(CONTAINS(TopItems, Allocation[Project_or_Product], SELECTEDVALUE(Allocation[Project_or_Product])),1,0)
+		formatString: 0
+		displayFolder: 09 Presentation
+		lineageTag: 47bf83ee-f0a8-4838-ad7c-ae0c95e1a941
+
+	measure 'Top Attention' = VAR SelectedItems = ALLSELECTED(Allocation[Record_ID]) VAR TopItems = TOPN(5, SelectedItems, [Mean Optimization Priority], DESC, Allocation[Record_ID], ASC) RETURN IF(CONTAINS(TopItems, Allocation[Record_ID], SELECTEDVALUE(Allocation[Record_ID])),1,0)
+		formatString: 0
+		displayFolder: 09 Presentation
+		lineageTag: fc77e6ad-dd95-4bb5-8e9e-14419ac00101
+
+	column Record_ID
+		dataType: string
+		lineageTag: 64e4ba3c-2987-4023-9a8b-b0150a3705a4
+		summarizeBy: none
+		sourceColumn: Record_ID
+
+	column Record_Date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: bec01552-3ca8-4f6a-9e65-9b4e163cfe1f
+		summarizeBy: none
+		sourceColumn: Record_Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Quarter
+		dataType: string
+		lineageTag: 0ce5a977-8298-41ad-a012-8e4cf9670b9d
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column Business_Unit
+		dataType: string
+		lineageTag: 0623c9ac-92ae-4ff7-a7a5-fbfaa73125a6
+		summarizeBy: none
+		sourceColumn: Business_Unit
+
+	column Industry_Context
+		dataType: string
+		lineageTag: 905ca1d6-e89f-4e8f-a7e8-ddc405576eaf
+		summarizeBy: none
+		sourceColumn: Industry_Context
+
+	column Region
+		dataType: string
+		lineageTag: 76ca3f8f-b318-44a8-9126-8558960d81fa
+		summarizeBy: none
+		sourceColumn: Region
+
+	column Resource_Category
+		dataType: string
+		lineageTag: 06b1bfd2-5589-4689-8959-cdb938ce10ca
+		summarizeBy: none
+		sourceColumn: Resource_Category
+
+	column Resource_ID
+		dataType: string
+		lineageTag: e7733731-9746-4772-9415-d86e294af18a
+		summarizeBy: none
+		sourceColumn: Resource_ID
+
+	column Allocation_Type
+		dataType: string
+		lineageTag: c63320b6-f989-4457-a9e3-bdb6a62e1d55
+		summarizeBy: none
+		sourceColumn: Allocation_Type
+
+	column Project_or_Product
+		dataType: string
+		lineageTag: 0b9fb787-c746-4d73-a32e-6697730c5870
+		summarizeBy: none
+		sourceColumn: Project_or_Product
+
+	column Customer_Segment
+		dataType: string
+		lineageTag: c5309927-79aa-4738-9467-5b92cd98ef6d
+		summarizeBy: none
+		sourceColumn: Customer_Segment
+
+	column Priority_Level
+		dataType: string
+		lineageTag: 28242bb7-98fd-4fa7-b8a1-533cd7185347
+		summarizeBy: none
+		sourceColumn: Priority_Level
+
+	column Demand_Status
+		dataType: string
+		lineageTag: 4cd9916b-efd0-4554-8c15-52ac4d78c964
+		summarizeBy: none
+		sourceColumn: Demand_Status
+
+	column Inventory_Status
+		dataType: string
+		lineageTag: 05ce0903-6f81-49b8-b975-35aa8ee67fb5
+		summarizeBy: none
+		sourceColumn: Inventory_Status
+
+	column Workforce_Skill_Level
+		dataType: string
+		lineageTag: 36c428f4-363d-4bef-a3dd-59db0c36b359
+		summarizeBy: none
+		sourceColumn: Workforce_Skill_Level
+
+	column Scenario_Label
+		dataType: string
+		lineageTag: 45ae2fb7-9a59-4ec3-b0e1-3141fd5619be
+		summarizeBy: none
+		sourceColumn: Scenario_Label
+
+	column Risk_Category
+		dataType: string
+		lineageTag: 83c75c69-ffdb-4639-8138-907292d3a114
+		summarizeBy: none
+		sourceColumn: Risk_Category
+
+	column Decision_Status
+		dataType: string
+		lineageTag: 20756ce3-f662-4e93-ad98-c66e2bf284d8
+		summarizeBy: none
+		sourceColumn: Decision_Status
+
+	column Budget_Allocated_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: a10403c2-eb70-482f-95fc-8b00f538cd2f
+		summarizeBy: none
+		sourceColumn: Budget_Allocated_USD
+
+	column Actual_Spend_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: efd63503-e684-40c1-9a6f-b5b3028d9c67
+		summarizeBy: none
+		sourceColumn: Actual_Spend_USD
+
+	column Revenue_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: ff05cb71-4fc2-4b5c-b831-a9f534641bc4
+		summarizeBy: none
+		sourceColumn: Revenue_USD
+
+	column Direct_Cost_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 1d90b055-7f72-4926-8ea4-ad273c2bf008
+		summarizeBy: none
+		sourceColumn: Direct_Cost_USD
+
+	column Operating_Cost_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 0c63c600-bed0-4fb7-b9f8-052b42b1c6c7
+		summarizeBy: none
+		sourceColumn: Operating_Cost_USD
+
+	column Investment_Amount_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 5c596b36-2748-4202-97b5-11bc51addb83
+		summarizeBy: none
+		sourceColumn: Investment_Amount_USD
+
+	column Expected_Return_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 78ab39bf-6823-4b4d-8d98-36fdfbf531ce
+		summarizeBy: none
+		sourceColumn: Expected_Return_USD
+
+	column Demand_Units
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 4a62560d-4cac-4a74-8c51-bf65e5ad1fec
+		summarizeBy: none
+		sourceColumn: Demand_Units
+
+	column Supply_Units
+		dataType: double
+		formatString: #,0.0
+		lineageTag: b4014a04-7576-44c4-86a8-bb1046f5299a
+		summarizeBy: none
+		sourceColumn: Supply_Units
+
+	column Inventory_Units
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 174d8f82-e56c-4a11-b2d5-f2957acf6371
+		summarizeBy: none
+		sourceColumn: Inventory_Units
+
+	column Stockout_Units
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 51eaf1e0-7d52-47e0-bf4f-8be21df6e714
+		summarizeBy: none
+		sourceColumn: Stockout_Units
+
+	column Workforce_Available_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 285d7e65-f06b-4e98-96ee-1bdd8f22a6e3
+		summarizeBy: none
+		sourceColumn: Workforce_Available_Hours
+
+	column Workforce_Allocated_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: d7cb955e-f30f-43b5-aa33-ff7e77fd6d3f
+		summarizeBy: none
+		sourceColumn: Workforce_Allocated_Hours
+
+	column Equipment_Available_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 41d47bb8-f188-4965-9ac2-b028c37fcc02
+		summarizeBy: none
+		sourceColumn: Equipment_Available_Hours
+
+	column Equipment_Allocated_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: fcfa563a-33d2-42b1-beee-a304f53f8cb4
+		summarizeBy: none
+		sourceColumn: Equipment_Allocated_Hours
+
+	column Service_Capacity
+		dataType: double
+		formatString: #,0.0
+		lineageTag: c26fea93-dbaa-4263-8721-04ed6b3ddfdb
+		summarizeBy: none
+		sourceColumn: Service_Capacity
+
+	column Service_Demand
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 0fcb7901-0b47-487f-902d-b49d6826cf7a
+		summarizeBy: none
+		sourceColumn: Service_Demand
+
+	column Orders_Completed
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 2f0f3f69-fc51-4f99-b375-7f8ff03b7e30
+		summarizeBy: none
+		sourceColumn: Orders_Completed
+
+	column Orders_Delayed
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 2a37b821-bdea-48f9-96b0-d693581c8d07
+		summarizeBy: none
+		sourceColumn: Orders_Delayed
+
+	column Forecast_Demand
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 528a484d-e065-4a8c-af96-40b5e091c58e
+		summarizeBy: none
+		sourceColumn: Forecast_Demand
+
+	column Forecast_Revenue_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: ff23cab3-05bb-432e-be51-ed56578638a7
+		summarizeBy: none
+		sourceColumn: Forecast_Revenue_USD
+
+	column Customer_Acquisition_Cost_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 229fe69a-3653-4763-95ce-7d04921db5d1
+		summarizeBy: none
+		sourceColumn: Customer_Acquisition_Cost_USD
+
+	column Customer_Lifetime_Value_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 0866c6a2-61ae-43fb-af7f-2e201b8cd29e
+		summarizeBy: none
+		sourceColumn: Customer_Lifetime_Value_USD
+
+	column Downtime_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 2a8e0fae-6ee6-4dd7-aff9-d4c1448d6354
+		summarizeBy: none
+		sourceColumn: Downtime_Hours
+
+	column Maintenance_Cost_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 3e63a769-7bbe-40ca-89c6-28fc9366384a
+		summarizeBy: none
+		sourceColumn: Maintenance_Cost_USD
+
+	column Training_Hours
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 5a649bda-fef9-46db-a0bf-81f306a083bf
+		summarizeBy: none
+		sourceColumn: Training_Hours
+
+	column Safety_Compliance_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: 74dc3c87-9ef6-439f-b915-2fb854bd36ee
+		summarizeBy: none
+		sourceColumn: Safety_Compliance_Pct
+
+	column Customer_Satisfaction_Score
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 86378f49-bf4a-47c8-88ea-d6fdd9776432
+		summarizeBy: none
+		sourceColumn: Customer_Satisfaction_Score
+
+	column Digital_Transactions
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 12eb9d5c-24ea-4585-a507-110ad8047c7d
+		summarizeBy: none
+		sourceColumn: Digital_Transactions
+
+	column Total_Transactions
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 5f578606-0e85-4b23-9190-b7aea237254e
+		summarizeBy: none
+		sourceColumn: Total_Transactions
+
+	column Budget_Variance_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 64042400-44cd-419f-a96f-1c2cc6da18eb
+		summarizeBy: none
+		sourceColumn: Budget_Variance_USD
+
+	column Budget_Utilization_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: 43758fe2-6c48-4c03-902d-1a0947dde5fe
+		summarizeBy: none
+		sourceColumn: Budget_Utilization_Pct
+
+	column Operating_Profit_USD
+		dataType: double
+		formatString: $#,0;($#,0);$0
+		lineageTag: 7ef8c54b-8eed-4a43-a296-c1c48f9e3c47
+		summarizeBy: none
+		sourceColumn: Operating_Profit_USD
+
+	column ROI_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: b300670a-bea0-4365-9de0-19b25b651fe5
+		summarizeBy: none
+		sourceColumn: ROI_Pct
+
+	column Demand_Forecast_Accuracy_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: 248b276e-f0eb-436b-ad88-e18764a1ed0c
+		summarizeBy: none
+		sourceColumn: Demand_Forecast_Accuracy_Pct
+
+	column Inventory_Service_Level_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: 8563aac3-c4fe-4906-a031-99e905106d6a
+		summarizeBy: none
+		sourceColumn: Inventory_Service_Level_Pct
+
+	column Workforce_Utilization_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: dcfad295-2dea-46ff-a451-43443a24289e
+		summarizeBy: none
+		sourceColumn: Workforce_Utilization_Pct
+
+	column Equipment_Utilization_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: fb02c34f-31c4-4947-9ddb-c58e1f2688ae
+		summarizeBy: none
+		sourceColumn: Equipment_Utilization_Pct
+
+	column Capacity_Coverage_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: 83495f9c-80f1-40eb-bdea-172510a7dd2e
+		summarizeBy: none
+		sourceColumn: Capacity_Coverage_Pct
+
+	column Order_Fulfilment_Pct
+		dataType: double
+		formatString: 0.0%;(0.0%);0.0%
+		lineageTag: ddd18fac-39b9-47ba-add5-cb929bc403a9
+		summarizeBy: none
+		sourceColumn: Order_Fulfilment_Pct
+
+	column Resource_Risk_Score
+		dataType: double
+		formatString: #,0.0
+		lineageTag: bb763fee-ede1-4790-9c64-eedb9ff9c704
+		summarizeBy: none
+		sourceColumn: Resource_Risk_Score
+
+	column Optimization_Priority_Score
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 86eb3825-8ab6-458a-a627-306097b2c936
+		summarizeBy: none
+		sourceColumn: Optimization_Priority_Score
+
+	partition Allocation = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:/Study/MBA/Courses/11 - Data Analytics for AI Business/Group Project/Group_9226_Team_4_Enterprise_Dataset.csv"),[Delimiter=",", Columns=60, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"Record_ID", type text}, {"Record_Date", type date}, {"Quarter", type text}, {"Business_Unit", type text}, {"Industry_Context", type text}, {"Region", type text}, {"Resource_Category", type text}, {"Resource_ID", type text}, {"Allocation_Type", type text}, {"Project_or_Product", type text}, {"Customer_Segment", type text}, {"Priority_Level", type text}, {"Demand_Status", type text}, {"Inventory_Status", type text}, {"Workforce_Skill_Level", type text}, {"Scenario_Label", type text}, {"Risk_Category", type text}, {"Decision_Status", type text}, {"Budget_Allocated_USD", type number}, {"Actual_Spend_USD", type number}, {"Revenue_USD", type number}, {"Direct_Cost_USD", type number}, {"Operating_Cost_USD", type number}, {"Investment_Amount_USD", type number}, {"Expected_Return_USD", type number}, {"Demand_Units", type number}, {"Supply_Units", type number}, {"Inventory_Units", type number}, {"Stockout_Units", type number}, {"Workforce_Available_Hours", type number}, {"Workforce_Allocated_Hours", type number}, {"Equipment_Available_Hours", type number}, {"Equipment_Allocated_Hours", type number}, {"Service_Capacity", type number}, {"Service_Demand", type number}, {"Orders_Completed", type number}, {"Orders_Delayed", type number}, {"Forecast_Demand", type number}, {"Forecast_Revenue_USD", type number}, {"Customer_Acquisition_Cost_USD", type number}, {"Customer_Lifetime_Value_USD", type number}, {"Downtime_Hours", type number}, {"Maintenance_Cost_USD", type number}, {"Training_Hours", type number}, {"Safety_Compliance_Pct", type number}, {"Customer_Satisfaction_Score", type number}, {"Digital_Transactions", type number}, {"Total_Transactions", type number}, {"Budget_Variance_USD", type number}, {"Budget_Utilization_Pct", type number}, {"Operating_Profit_USD", type number}, {"ROI_Pct", type number}, {"Demand_Forecast_Accuracy_Pct", type number}, {"Inventory_Service_Level_Pct", type number}, {"Workforce_Utilization_Pct", type number}, {"Equipment_Utilization_Pct", type number}, {"Capacity_Coverage_Pct", type number}, {"Order_Fulfilment_Pct", type number}, {"Resource_Risk_Score", type number}, {"Optimization_Priority_Score", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

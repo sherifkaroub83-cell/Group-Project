@@ -1,0 +1,103 @@
+{
+  "sha256": {
+    "Group_9226_Team_4_Project.pbix": "656e7ab60d831c200e977e3db5ebc6435e9ee519f080529dc769157c25b5a0b0",
+    "Group_9226_Team_4_Enterprise_Dataset.csv": "6cac2e2f5ee0976168cc06de4aa6fad0eebee37b8a8251e6baa737e44b9dd19c"
+  },
+  "kpis": {
+    "Records": 5000,
+    "Allocated Budget": 2515646929.3566,
+    "Actual Spend": 2505324105.741,
+    "Revenue": 3050089873.3096,
+    "Operating Profit": 1447046441.8957,
+    "Budget Utilization": 0.9958965530913196,
+    "Operating Margin": 0.47442747656662815,
+    "Portfolio Expected ROI": 0.22153657375355518,
+    "Workforce Utilization": 0.8179125623391774,
+    "Equipment Utilization": 0.7909281416251474,
+    "Order Completion": 0.9153268979190436,
+    "Attention Budget": 150080206.9772
+  },
+  "scenarios": {
+    "-0.1": {
+      "gap": 20813.210020000013,
+      "coverage": 0.9929932854865701
+    },
+    "0": {
+      "gap": 118341.38369999999,
+      "coverage": 0.9641446052328285
+    },
+    "0.1": {
+      "gap": 311224.9102900002,
+      "coverage": 0.9142765717980001
+    },
+    "0.2": {
+      "gap": 590812.4980999999,
+      "coverage": 0.8508283500776023
+    }
+  },
+  "years": {
+    "2024": 2004,
+    "2025": 2000,
+    "2026": 996
+  },
+  "decisions": {
+    "Maintain": 4707,
+    "Review": 282,
+    "Reallocate": 11
+  },
+  "missing": 0,
+  "duplicate_ids": 0,
+  "date_range": [
+    "2024-01-05",
+    "2026-12-25"
+  ],
+  "unit_resource": {
+    "Asset Operations": [
+      "Equipment"
+    ],
+    "Digital Products": [
+      "Technology"
+    ],
+    "Healthcare Supply": [
+      "Inventory"
+    ],
+    "Investment Portfolio": [
+      "Capital"
+    ],
+    "Marine Services": [
+      "Workforce"
+    ]
+  },
+  "scenario_service": {
+    "Cost Pressure": {
+      "records": 690,
+      "delay_rate": 0.07721178172528115
+    },
+    "Demand Surge": {
+      "records": 807,
+      "delay_rate": 0.07822236417564254
+    },
+    "Growth": {
+      "records": 1057,
+      "delay_rate": 0.08007142098868823
+    },
+    "Stable": {
+      "records": 1988,
+      "delay_rate": 0.07884576129455817
+    },
+    "Supply Disruption": {
+      "records": 458,
+      "delay_rate": 0.15237912350657615
+    }
+  },
+  "measures": 60,
+  "relationships": "relationship 1810999b-c78c-4035-92d6-2af31435f1f1\n\tfromColumn: Allocation.Record_Date\n\ttoColumn: Calendar.Date\n\n",
+  "pages": [
+    "01 Executive",
+    "02 Financial",
+    "03 Demand & Inventory",
+    "04 Workforce & Assets",
+    "05 Allocation Priorities"
+  ],
+  "custom_visuals": []
+}

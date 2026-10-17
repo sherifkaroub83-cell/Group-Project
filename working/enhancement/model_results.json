@@ -1,0 +1,149 @@
+{
+  "purpose": "Estimate allocation-record demand before outcomes using only assumed known unit, region, initiative and scheduled month. Educational feasibility study, not deployable forecast.",
+  "target": "Demand_Units",
+  "eligible_predictors": [
+    "Business_Unit",
+    "Region",
+    "Project_or_Product",
+    "scheduled month sine/cosine"
+  ],
+  "timing_assumption": "Unit, region, initiative and scheduled observation month assumed known at planning time; source has no event-time feature availability log.",
+  "excluded": "All supplied forecasts, demand/supply/capacity/outcomes, scores, labels, numeric financial and resource measures, identifiers, demand/inventory/risk status.",
+  "validation": "Train 2024 (2004); select ridge penalty on 2025 (2000) MAE; freeze design, refit 2024-2025; evaluate once on 2026 (996).",
+  "baseline": "Business-unit historical mean demand fitted on training window; global mean fallback for unseen unit.",
+  "validation_trials": {
+    "1": {
+      "n": 2000,
+      "MAE": 113.92362372010582,
+      "RMSE": 146.4178181848163,
+      "WAPE": 0.15922608935971988,
+      "bias_pct": -0.006376218081346436
+    },
+    "10": {
+      "n": 2000,
+      "MAE": 113.96607044659267,
+      "RMSE": 146.87841817875997,
+      "WAPE": 0.15928541530146842,
+      "bias_pct": -0.008676090302002351
+    },
+    "100": {
+      "n": 2000,
+      "MAE": 124.34691407828514,
+      "RMSE": 161.52992803379857,
+      "WAPE": 0.17379426852922472,
+      "bias_pct": -0.028155227013479018
+    },
+    "1000": {
+      "n": 2000,
+      "MAE": 225.26075103009975,
+      "RMSE": 274.5130604587836,
+      "WAPE": 0.3148371452867172,
+      "bias_pct": -0.09086280109865105
+    }
+  },
+  "selected_alpha": 1,
+  "test_model": {
+    "n": 996,
+    "MAE": 113.96166755183444,
+    "RMSE": 145.2911331752913,
+    "WAPE": 0.18273649550249826,
+    "bias_pct": -0.003250152927926201
+  },
+  "test_baseline": {
+    "n": 996,
+    "MAE": 113.41779239273036,
+    "RMSE": 144.3367458505009,
+    "WAPE": 0.18186439664065646,
+    "bias_pct": -0.0032785080295843223
+  },
+  "segments": {
+    "Asset Operations": {
+      "model": {
+        "n": 166,
+        "MAE": 110.64116022210764,
+        "RMSE": 137.2806011624597,
+        "WAPE": 0.182035721000375,
+        "bias_pct": 0.040904186646996014
+      },
+      "baseline": {
+        "n": 166,
+        "MAE": 107.82309202421197,
+        "RMSE": 135.60081070854412,
+        "WAPE": 0.17739920891750866,
+        "bias_pct": 0.005626287736720447
+      }
+    },
+    "Digital Products": {
+      "model": {
+        "n": 166,
+        "MAE": 146.78759770309674,
+        "RMSE": 184.82514577634532,
+        "WAPE": 0.12803865313923798,
+        "bias_pct": -0.02315991475601095
+      },
+      "baseline": {
+        "n": 166,
+        "MAE": 146.7790826731386,
+        "RMSE": 183.0997065253199,
+        "WAPE": 0.12803122572040734,
+        "bias_pct": -0.007152983835119764
+      }
+    },
+    "Healthcare Supply": {
+      "model": {
+        "n": 166,
+        "MAE": 118.61294642834977,
+        "RMSE": 147.95356721047483,
+        "WAPE": 0.13827546091029572,
+        "bias_pct": 0.0016628468347949618
+      },
+      "baseline": {
+        "n": 166,
+        "MAE": 121.25188878535724,
+        "RMSE": 150.0945963788844,
+        "WAPE": 0.14135186177309142,
+        "bias_pct": 0.008977965252610255
+      }
+    },
+    "Investment Portfolio": {
+      "model": {
+        "n": 166,
+        "MAE": 108.66628734700463,
+        "RMSE": 139.294628284913,
+        "WAPE": 0.4205515684627007,
+        "bias_pct": -0.04344270814425463
+      },
+      "baseline": {
+        "n": 166,
+        "MAE": 108.11384939759037,
+        "RMSE": 137.8878985502968,
+        "WAPE": 0.418413567323833,
+        "bias_pct": -0.021864984722632645
+      }
+    },
+    "Marine Services": {
+      "model": {
+        "n": 332,
+        "MAE": 99.53100680522395,
+        "RMSE": 127.19577585370358,
+        "WAPE": 0.22843585151416915,
+        "bias_pct": -0.000772354454339635
+      },
+      "baseline": {
+        "n": 332,
+        "MAE": 98.26942073804199,
+        "RMSE": 125.58669195627917,
+        "WAPE": 0.22554035696663505,
+        "bias_pct": -0.01094602106711692
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic educational data with embedded relationships. No real-world generalization claim.",
+    "Repeated entities are excluded as predictors; test estimates future observations in known portfolio, not new-entity performance.",
+    "Sparse irregular dates; record demand regression is not a continuous demand time-series forecast.",
+    "No Reallocate classifier: only 11 labels and supplied score components risk leakage.",
+    "No optimization or achieved savings demonstrated."
+  ],
+  "conclusion": "Ridge does not beat the informative baseline on held-out MAE; retain baseline for this experiment."
+}

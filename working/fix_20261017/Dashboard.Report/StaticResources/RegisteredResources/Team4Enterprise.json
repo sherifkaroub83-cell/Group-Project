@@ -1,0 +1,37 @@
+{
+  "name": "Team4 Enterprise",
+  "dataColors": [
+    "#008C95",
+    "#407DB0",
+    "#D89836",
+    "#7B6EAE",
+    "#52AAA1",
+    "#BD6872"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#20364B",
+  "tableAccent": "#008C95",
+  "good": "#008C95",
+  "neutral": "#D89836",
+  "bad": "#C65A61",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#008C95"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#20364B",
+      "fontSize": 12
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#20364B"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#63788B",
+      "fontSize": 10
+    }
+  }
+}

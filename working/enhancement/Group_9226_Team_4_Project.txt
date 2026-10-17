@@ -1,0 +1,560 @@
+PAGE 1
+Power BI DesktopTEAM 4  /  ENTERPRISE ANALYTICS
+Resource allocation. Business performance.
+GROUP 9226
+2024–2026
+01   Overview 02   Financial value 03   Demand & inventory 04   People & assets 05   Allocation priorities
+A connected view of capital, service and capacity. Start with the portfolio, then investigate the drivers.
+Year
+All
+
+
+Business unit
+All
+
+
+Resource
+All
+
+
+Scenario
+All
+
+
+Region
+All
+
+
+SYNTHETIC EDUCATIONAL DATA  •  USD  •  Select a chart to cross-filter; clear slicers with the eraser. Navigation: Ctrl+click in Desktop.
+Allocated budget
+$2.52bn
+Actual spend
+$2.51bn
+Operating profit
+$1.45bn
+Mean record ROI
+22.2%
+Mean risk / 100
+8.8
+Reallocation records
+11
+Operating profit by business unit
+$0.0bn $0.1bn $0.2bn $0.3bn $0.4bn $0.5bn
+Digital Products
+Healthcare Supply
+Asset Operations
+Marine Services
+Investment Portfolio
+$0.50bn
+$0.38bn
+$0.27bn
+$0.18bn
+$0.11bn
+Revenue and operating profit by month
+$0.0bn
+$0.1bn
+$0.2bn
+2024-01
+2024-02
+2024-03
+2024-04
+2024-05
+2024-06
+2024-07
+2024-08
+2024-09
+2024-10
+2024-11
+2024-12
+2025-01
+2025-02
+2025-03
+2025-04
+2025-05
+2025-06
+2025-07
+2025-08
+2025-09
+2025-10
+2025-11
+2025-12
+2026-01
+2026-02
+2026-03
+2026-04
+2026-05
+2026-06
+2026-07
+2026-08
+2026-09
+2026-10
+2026-11
+Revenue Operating Profit
+Spend and budget by resource
+$0.0bn
+$0.5bn
+$1.0bn
+Capital Equipment Inventory Technology Workforce
+$0.90bn
+$0.42bn
+$0.52bn
+$0.30bn
+$0.38bn
+$0.89bn
+$0.42bn
+$0.52bn
+$0.29bn
+$0.38bn
+Allocated Budget Actual Spend
+Portfolio scorecard — compare return, service and capacity
+Business unit ROI Fulfilment Workforce % Equipment % Attention
+Asset Operations 22.5% 91.5% 82.0% 79.6% 45
+Digital Products 22.2% 91.2% 81.9% 78.8% 70
+Healthcare Supply 22.4% 91.4% 81.7% 79.4% 69
+Investment Portfolio 22.4% 91.5% 81.3% 78.5% 60
+Marine Services 21.4% 91.7% 82.1% 79.1% 49
+PAGE 2
+Power BI DesktopTEAM 4  /  ENTERPRISE ANALYTICS
+Financial performance & investment value
+GROUP 9226
+2024–2026
+01   Overview 02   Financial value 03   Demand & inventory 04   People & assets 05   Allocation priorities
+Follow budget execution through profit and expected return. Portfolio ROI is investment-weighted; operating profit is not EBITDA.
+Year
+All
+
+
+Business unit
+All
+
+
+Resource
+All
+
+
+Scenario
+All
+
+
+Region
+All
+
+
+SYNTHETIC EDUCATIONAL DATA  •  USD  •  Select a chart to cross-filter; clear slicers with the eraser. Navigation: Ctrl+click in Desktop.
+Revenue
+$3.05bn
+Operating profit
+$1.45bn
+Operating margin
+47.4%
+Budget utilization
+99.6%
+Expected portfolio ROI
+22.2%
+LTV / CAC
+4.5x
+Allocated budget versus actual spend
+$0.0bn $0.2bn $0.4bn $0.6bn $0.8bn
+Asset Operations
+Digital Products
+Healthcare Supply
+Investment Portfolio
+Marine Services
+$0.42bn
+$0.30bn
+$0.52bn
+$0.90bn
+$0.38bn
+$0.42bn
+$0.29bn
+$0.52bn
+$0.89bn
+$0.38bn
+Allocated BudgetActual Spend
+Monthly profit and spending
+$0.0bn
+$0.1bn
+2024-01
+2024-02
+2024-03
+2024-04
+2024-05
+2024-06
+2024-07
+2024-08
+2024-09
+2024-10
+2024-11
+2024-12
+2025-01
+2025-02
+2025-03
+2025-04
+2025-05
+2025-06
+2025-07
+2025-08
+2025-09
+2025-10
+2025-11
+2025-12
+2026-01
+2026-02
+2026-03
+2026-04
+2026-05
+2026-06
+2026-07
+2026-08
+2026-09
+2026-10
+2026-11
+Operating ProfitActual Spend
+Investment versus expected ROI — business units
+21.5%
+22.0%
+22.5%
+Investment
+Portfolio Expected ROI
+$100M $150M $200M $250M $300M
+Digital Products
+Healthcare Supply
+Investment Portfolio
+Asset Operations
+Marine Services
+Product economics — ranked by operating profit
+Product / initiative Revenue Profit
+ 
+Margin ROI LTV to CAC
+Initiative-13 $120,798,806 $58,802,954 48.7% 24.5% 4.6x
+Initiative-38 $124,439,606 $58,758,608 47.2% 23.1% 4.5x
+Initiative-03 $120,328,100 $57,155,505 47.5% 21.1% 4.4x
+Initiative-18 $115,177,943 $56,517,046 49.1% 21.3% 4.7x
+Initiative-23 $114,411,991 $54,865,436 48.0% 23.6% 4.3x
+Initiative-43 $114580082 $54633619 477% 225% 48x
+
+PAGE 3
+Power BI DesktopTEAM 4  /  ENTERPRISE ANALYTICS
+Demand, inventory & service delivery
+GROUP 9226
+2024–2026
+01   Overview 02   Financial value 03   Demand & inventory 04   People & assets 05   Allocation priorities
+Compare supplied forecasts with demand, locate stockouts, and connect inventory availability to completed orders.
+Year
+All
+
+
+Business unit
+All
+
+
+Resource
+All
+
+
+Scenario
+All
+
+
+Region
+All
+
+
+SYNTHETIC EDUCATIONAL DATA  •  USD  •  Select a chart to cross-filter; clear slicers with the eraser. Navigation: Ctrl+click in Desktop.
+Demand units
+3.3M
+Inventory units
+681.2K
+Stockout units
+35.8K
+Mean forecast accuracy
+92.6%
+Mean inventory service
+98.8%
+Order completion rate
+91.5%
+Actual demand versus supplied forecast
+0.0M
+0.1M
+0.2M
+2024-01
+2024-02
+2024-03
+2024-04
+2024-05
+2024-06
+2024-07
+2024-08
+2024-09
+2024-10
+2024-11
+2024-12
+2025-01
+2025-02
+2025-03
+2025-04
+2025-05
+2025-06
+2025-07
+2025-08
+2025-09
+2025-10
+2025-11
+2025-12
+2026-01
+2026-02
+2026-03
+2026-04
+2026-05
+2026-06
+2026-07
+2026-08
+2026-09
+2026-10
+Demand Forecast Demand
+Stockouts by business unit
+0K 2K 4K 6K 8K 10K 12K
+Digital Products
+Healthcare Supply
+Asset Operations
+Marine Services
+Investment Portfolio
+13.0K
+10.0K
+6.1K
+3.9K
+2.8K
+Completed and delayed orders by scenario
+0.0M
+0.5M
+1.0M
+Cost Pressure Demand Surge Growth Stable Supply Disruption
+0.41M
+0.59M 0.62M
+1.17M
+0.23M
+0.03M 0.05M 0.05M 0.10M 0.04M
+Orders Completed Orders Delayed
+Supply and forecast exceptions by business unit
+Business unit Demand Supply Stockouts
+ 
+WAPE Service % Delayed
+Digital Products 1,139,593 1,090,059 12,992 7.2% 98.7% 98,127
+Healthcare Supply 864,225 826,450 10,007 7.5% 98.7% 73,294
+Asset Operations 610,651 584,766 6,052 7.4% 98.9% 51,184
+Marine Services 432,521 414,151 3,943 7.0% 99.0% 35,483
+Investment Portfolio 253,678 242,120 2,809 7.7% 98.8% 21,392
+PAGE 4
+Power BI DesktopTEAM 4  /  ENTERPRISE ANALYTICS
+Workforce, equipment & operating capacity
+GROUP 9226
+2024–2026
+01   Overview 02   Financial value 03   Demand & inventory 04   People & assets 05   Allocation priorities
+Utilization uses allocated / available hours. Capacity shortfall adds record-level gaps so surplus cannot hide a shortage.
+Year
+All
+
+
+Business unit
+All
+
+
+Resource
+All
+
+
+Scenario
+All
+
+
+Region
+All
+
+
+SYNTHETIC EDUCATIONAL DATA  •  USD  •  Select a chart to cross-filter; clear slicers with the eraser. Navigation: Ctrl+click in Desktop.
+Workforce utilization
+81.8%
+Equipment utilization
+79.1%
+Unused workforce hours
+2.2M
+Downtime hours
+311.3K
+Mean safety compliance
+95.9%
+Capacity shortfall
+118.3K
+Workforce and equipment utilization
+0% 20% 40% 60% 80%
+Asset Operations
+Digital Products
+Healthcare Supply
+Investment Portfolio
+Marine Services
+82.0%
+81.9%
+81.7%
+81.3%
+82.1%
+79.6%
+78.8%
+79.4%
+78.5%
+79.1%
+Workforce UtilizationEquipment Utilization
+Downtime and training hours by month
+5K
+10K
+2024-01
+2024-02
+2024-03
+2024-04
+2024-05
+2024-06
+2024-07
+2024-08
+2024-09
+2024-10
+2024-11
+2024-12
+2025-01
+2025-02
+2025-03
+2025-04
+2025-05
+2025-06
+2025-07
+2025-08
+2025-09
+2025-10
+2025-11
+2025-12
+2026-01
+2026-02
+2026-03
+2026-04
+2026-05
+2026-06
+2026-07
+2026-08
+2026-09
+2026-10
+2026-11
+Downtime HoursTraining Hours
+Capacity shortfall by business unit
+0K
+10K
+20K
+30K
+40K
+Digital Products Healthcare
+Supply
+Asset Operations Marine Services Investment
+Portfolio
+41K
+30K
+23K
+16K
+8K
+Operating constraints and safety
+Business unit Downtime (h)
+ 
+Maintenance Spare hours Safety % Fulfilment
+Asset Operations 63,275 $44,829,702 415,345 96.0% 91.5%
+Healthcare Supply 63,244 $43,430,173 419,215 96.0% 91.4%
+Marine Services 62,089 $43,992,705 424,506 95.9% 91.7%
+Investment Portfolio 61,414 $44,136,017 436,312 96.0% 91.5%
+Digital Products 61,233 $42,824,698 451,226 95.7% 91.2%
+PAGE 5
+Power BI DesktopTEAM 4  /  ENTERPRISE ANALYTICS
+Predictive view & allocation priorities
+GROUP 9226
+2024–2026
+01   Overview 02   Financial value 03   Demand & inventory 04   People & assets 05   Allocation priorities
+Supplied forecasts and decision labels • Illustrative demand scenario with fixed capacity • Recommendations require management review.
+Year
+All
+
+
+Business unit
+All 
+Resource
+All
+
+
+Scenario
+All 
+Region
+All
+
+
+SYNTHETIC EDUCATIONAL DATA  •  USD  •  Select a chart to cross-filter; clear slicers with the eraser. Navigation: Ctrl+click in Desktop.
+Reallocation records
+11
+Review records
+282
+Budget flagged for attention
+$0.15bn
+Mean priority score / 100
+6.3
+Scenario demand coverage
+96.4%
+Scenario capacity gap
+118.3K
+What-if demand change
+0%
+
+
+Select −10%, 0%, +10% or +20%.
+Default: 0%. Capacity stays fixed.
+This is a sensitivity test, not a trained 
+AI forecast.
+Mean risk and priority by scenario
+0 5 10
+Supply Disruption
+Cost Pressure
+Growth
+Demand Surge
+Stable
+10.1
+9.9
+8.7
+8.5
+8.3
+9.1
+6.4
+6.0
+5.9
+5.9
+Mean Resource RiskMean Optimization Priority
+Capacity gap under selected demand change
+0K
+10K
+20K
+30K
+40K
+Asset OperationsDigital ProductsHealthcare SupplyInvestment
+Portfolio
+Marine Services
+23K
+41K
+30K
+8K
+16K
+Action queue — supplied Review / Reallocate labels, highest priority first
+Record Business unit Scenario Decision Priority
+ 
+Risk ROI Capacity gap
+T4-01184 Healthcare Supply Supply Disruption Reallocate 24.3 17.5 39.1% 113
+T4-01708 Digital Products Supply Disruption Reallocate 23.2 20.3 38.3% 0
+T4-00218 Digital Products Supply Disruption Reallocate 22.2 20.7 8.2% 130
+T4-03516 Asset Operations Supply Disruption Reallocate 20.8 16.1 32.7% 44
+T4-03376 Asset Operations Supply Disruption Reallocate 19.8 17.4 54.6% 76
+T4-04136 Asset Operations Supply Disruption Reallocate 18.7 21.4 23.6% 0
+DECISION CHECKLIST
+1  Confirm the shortage or constraint.
+2  Compare expected return and service.
+3  Check spare hours, skills and safety.
+4  Approve and monitor the change.
+Risk and priority are supplied scores; their 
+original formulas were not provided.

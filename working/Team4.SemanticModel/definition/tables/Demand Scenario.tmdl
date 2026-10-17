@@ -1,0 +1,14 @@
+table 'Demand Scenario'
+	lineageTag: 19d22573-543e-481f-8a88-12632b656f26
+
+	column 'Demand Change'
+		dataType: double
+		formatString: +0%;-0%;0%
+		lineageTag: 7e0bc1bb-6a49-4a3d-91fa-9c01b9c47db6
+		summarizeBy: none
+		sourceColumn: Demand Change
+
+	partition 'Demand Scenario' = m
+		mode: import
+		source = #table(type table [Demand Change=number],{{-0.1},{0},{0.1},{0.2}})
+

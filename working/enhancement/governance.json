@@ -1,0 +1,11 @@
+{
+  "profit_identity_max_error": 0.00010000017937272787,
+  "budget_variance_max_error": 0.00010000010843214113,
+  "negative_numeric_values": {
+    "Budget_Variance_USD": 2390,
+    "ROI_Pct": 715
+  },
+  "resource_ids": 240,
+  "initiatives": 45,
+  "distinct_dates": 60
+}

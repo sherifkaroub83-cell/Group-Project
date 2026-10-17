@@ -1,0 +1,64 @@
+PAGE 1
+Group 9226  |  Capstone announcement
+Page 1
+Capstone Project Announcement for Group 9226
+Data Analytics for AI Business
+Programme 3_MBAE_S25_MK_AIB_A
+Dear Students,
+Your capstone project will bring together business analytics, Power BI and Artificial Intelligence to
+support an executive decision in your assigned business setting. Each team will work as an Executive
+Analytics Advisory Team and develop an integrated dashboard, presentation and analytical report.
+The project materials will be made available through Moodle. Each team package comprises:
+• The assigned enterprise dataset in CSV format.
+• The team project title, business scenario and reference publication.
+• The supporting analytics workbook with dataset metadata and analytical guidance.
+• The official team allocation and capstone submission instructions.
+Read the Final Capstone Project Description for Group 9226 before starting. It sets out the learning
+outcomes, analytical scope, deliverables, assessment criteria, submission requirements and presentation
+expectations.
+Submission requirements
+• Executive Power BI Dashboard (.pbix).
+• Executive Presentation (.pptx), recommended 12-15 slides.
+• Comprehensive Analytical Report (.pdf), recommended 20-25 pages.
+Submit one integrated package per team through Moodle. A maximum of three files may be uploaded;
+use the required formats and include supporting model evidence and AI disclosure within the
+presentation and report.
+Important dates
+Milestone
+Date
+Project materials available
+To be announced
+Submission deadline
+To be announced
+Executive presentations
+To be announced
+The instructors will confirm dates through Moodle. Late submissions require official approval in
+accordance with Graduate School regulations.
+
+PAGE 2
+Group 9226  |  Capstone announcement
+Page 2
+Team Preparation and Executive Expectations
+Begin by reviewing the assigned business case, dataset definitions and analytical grain. Divide
+responsibilities across governance, exploratory analysis, Power BI development, AI evaluation, executive
+recommendations and reporting. Keep a shared work plan and ensure every team member understands
+the integrated result.
+The supplied datasets and reference publications provide a starting point. Your team must verify the
+measures, conduct its own analysis, build a functioning Power BI dashboard and present its own
+evidence-based conclusions. Copying the reference publication does not demonstrate completion of the
+capstone.
+All findings must be traceable to your assigned dataset. Distinguish observed synthetic results from
+proposed actions, test selected AI methods against a suitable baseline, and report weaknesses as clearly
+as strengths. A model that adds no value is a valid analytical finding when supported by a sound
+evaluation.
+Your executive briefing should explain the business problem, the most important findings, the decision
+implications and the limits of the evidence. Use clear visuals and practical recommendations. Disclose AI
+assistance and describe how your team validated the final work.
+Raise project questions during class sessions or through the official course communication channels. The
+instructors will communicate any changes to dates, allocation or assessment through Moodle.
+We look forward to reviewing your analytical work and executive presentations.
+Best wishes,
+Dr. Yasser Aly Yakout Shehata & Dr. Hossam Daoud
+Course Instructors - Data Analytics for AI Business
+Graduate School of Business (GSB), Miami
+Arab Academy for Science, Technology and Maritime Transport (AASTMT)

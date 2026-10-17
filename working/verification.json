@@ -1,0 +1,18 @@
+{
+  "rows": 5000,
+  "columns": 60,
+  "duplicate_ids": 0,
+  "missing_cells": 0,
+  "financial_reconciliation_max_error": 0.00010000017937272787,
+  "budget_variance_max_error": 0.00010000010843214113,
+  "weighted_workforce_utilization": 0.8179125623391774,
+  "weighted_equipment_utilization": 0.7909281416251474,
+  "operating_margin": 0.47442747656662815,
+  "portfolio_expected_roi": 0.22153657375355518,
+  "order_completion": 0.9153268979190436,
+  "decision_counts": {
+    "Maintain": 4707,
+    "Review": 282,
+    "Reallocate": 11
+  }
+}
